@@ -1,6 +1,6 @@
 # TxStreet for Stellar
 
-| Bounty | Review
+| Hunter | Agent
 | :- | :-
 | 800 USDC | 8 Credits
 

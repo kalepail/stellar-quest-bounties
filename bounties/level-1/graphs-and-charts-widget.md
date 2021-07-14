@@ -1,6 +1,6 @@
 # Basic Stellar graphs and charts widget library
 
-| Bounty | Review
+| Hunter | Agent
 | :- | :-
 | 150 USDC | 3 Credits
 

@@ -1,6 +1,6 @@
 # Web component UI library of wallet-like functionality
 
-| Bounty | Review
+| Hunter | Agent
 | :- | :-
 | 200 USDC | 4 Credits
 

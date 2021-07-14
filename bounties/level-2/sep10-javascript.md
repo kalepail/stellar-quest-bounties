@@ -1,6 +1,6 @@
 # Reference implementation of SEP10 in Javascript
 
-| Bounty | Review
+| Hunter | Agent
 | :- | :-
 | 250 USDC | 5 Credits
 

@@ -1,6 +1,6 @@
 # M-of-n musig library
 
-| Bounty | Review
+| Hunter | Agent
 | :- | :-
 | 1,500 USDC | 12 Credits
 
