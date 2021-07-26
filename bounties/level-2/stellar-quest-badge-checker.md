@@ -26,3 +26,8 @@ The idea is someone wants to give you VIP status at a conference, $100,000 off y
 - Maybe the export token/key/code can be read back into the site by a verifier. A sort of image or image + QR code or just QR code that when dropped on the site opens to show the details. Kind of like a transit ticket.
 - Maybe white label it a bit such that via url query items we could drop in logo urls or custom colors such to generate a custom experience for different users. Logging in from a university campaign email link? Here's some custom logos and colors to match. NASA advertisement? Looks like it to me.
 - Consider employing that one designer friend we all have, these needs to feel slick, intuitive and secure.
+
+---
+
+## Submissions
+- [Your github repo link here]
