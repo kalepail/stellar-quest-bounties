@@ -1,11 +1,8 @@
 # Improve Stellar Documentation SDK Examples
 
-## Overview
-  * **Short Description:** Publish code snippets for different SDKs on Stellar Docs
-  * **Bounty:** 500 XLM 
-  *	**Estimated Time Commitment:** Variable
-  * **Experience Level:** Beginner / Intermediate / Advanced
-  * **URL:** https://developers.stellar.org/docs/
+| Hunter | Agent
+| :- | :-
+| 50 XLM per example | 0 Credits (success will be determined by PR acceptance by the SDF docs maintainers)
 
 ## Description
 
@@ -15,24 +12,26 @@ This task involves creating code snippets for SDKs in different languages suppor
 
 Currently, Stellar supports JavaScript, Python, Java, Scala, Flutter, Ruby and Go, which means you can interact with the network in your language of choice. However, the code snippets listed on Stellar Docs is limited to a few languages. Therefore, the goal of this task is to ensure there are adequate code examples to make Stellar Docs accessible to any developer (inexperienced to expert), easy and quick to use.
 
-**_Note: The code snippet should cover the all of the examples present on the page of the documentation._**
-
 ### What are the requirements for the bounty hunter?
 
 The developer should have knowledge of the specific SDK language and the Stellar SDK
 
 ### What are the deliverables?
 
- *Description* 
-  * The developer should provide a completed pull request that has been reviewed and accepted by the moderators
+*Description*  <br>
+  * The developer should provide a completed pull request (1 per completed example) that has been reviewed and accepted by the moderators
 
- *Judging Criteria and Metrics* <br>
+*Judging Criteria and Metrics* <br>
   * Code Quality - Is the code snippet well-organized and documented? Does it adhere to language-specific style guidelines?
   * Scope of Work - How much time and effort did it take to complete this code snippet?
   * Consistency - Is the code snippet as consistent as possible across all of the existing code examples present in the documentation?
   
- *Submission Procedure* <br>
-  * Submit your PR link on the Stellar-Quest Discord channel.
+*Submission Procedure* <br>
+  * Submit your PR link as a comment on the specific issue thread for this bounty
+
+## Links
+
+- https://developers.stellar.org/docs
 
 ## Example
 

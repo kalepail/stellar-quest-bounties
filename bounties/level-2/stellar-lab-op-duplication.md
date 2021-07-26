@@ -28,6 +28,7 @@ The developer should have knowledge of Stellar Laboratory and Stellar SDK.
   * Submit a link to your laboratory fork as a comment on the specific issue thread for this bounty
 
 ## Links
+
 - https://github.com/stellar/laboratory
 - https://laboratory.stellar.org/#txbuilder
 
