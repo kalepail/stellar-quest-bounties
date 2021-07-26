@@ -16,10 +16,6 @@ Therefore, the goal of this task is to add a feature on Stellar Laboratory that 
 
 The developer should have knowledge of Stellar Laboratory and Stellar SDK.
 
-## Links
-- https://github.com/stellar/laboratory
-- https://laboratory.stellar.org/#txbuilder
-
 ### What are the deliverables?
 
 *Description* <br>
@@ -30,6 +26,10 @@ The developer should have knowledge of Stellar Laboratory and Stellar SDK.
   
 *Submission Procedure* <br>
   * Submit a link to your laboratory fork as a comment on the specific issue thread for this bounty
+
+## Links
+- https://github.com/stellar/laboratory
+- https://laboratory.stellar.org/#txbuilder
 
 ## Possible Solution
 
