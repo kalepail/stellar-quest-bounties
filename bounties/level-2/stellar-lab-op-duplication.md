@@ -3,7 +3,7 @@
 
 | Hunter | Agent
 | :- | :-
-| 800 XLM | 3 Credits
+| 300 XLM | 2 Credits
 
 ## Description
 
