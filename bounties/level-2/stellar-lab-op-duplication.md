@@ -35,3 +35,7 @@ The developer should have knowledge of Stellar Laboratory and Stellar SDK.
 ## Possible Solution
 
 ![image](https://user-images.githubusercontent.com/73634107/126083722-86a89a1a-93f3-4efb-bb7a-3bd90ec53b5f.png)
+
+
+## Submissions
+- GDQXMWOVN3ZFBLMHQCQL6MKUDLWM3ITHU6W7WDLEREANAYTD5BCMAU4L: https://github.com/stellar/laboratory/pull/544
