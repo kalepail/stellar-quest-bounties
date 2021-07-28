@@ -2,7 +2,7 @@
 
 | Hunter | Agent
 | :- | :-
-| 5000 XLM | 10 Credits
+| 3000 XLM | 6 Credits
 
 ## Description
 
@@ -11,8 +11,6 @@
 People using Stellar Laboratory on mobile devices do not have a very good user experience. Layout is scaled to fit the whole screen, along with text size, which makes it difficult for users to interact with the lab.
 
 With majority of global traffic being on mobile ([source](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)), this possibly hinders adoption of Stellar network to mobile users.
-
-
 
 ### What are the requirements for the bounty hunter?
 
