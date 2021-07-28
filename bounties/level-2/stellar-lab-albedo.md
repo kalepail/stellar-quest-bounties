@@ -37,6 +37,6 @@ The developer should provide a completed fork of the laboratory implementing new
 
 ## Links
  - https://github.com/stellar/laboratory
- - https://laboratory.stellar.org/#txbuilder
+ - https://laboratory.stellar.org/#txsigner
 
 
