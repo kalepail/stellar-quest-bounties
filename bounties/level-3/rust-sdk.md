@@ -1,5 +1,5 @@
 
-# Operation Duplication for Stellar Laboratory
+# Implement the Stellar SDK as Rust crate
 
 | Hunter | Agent
 | :- | :-
