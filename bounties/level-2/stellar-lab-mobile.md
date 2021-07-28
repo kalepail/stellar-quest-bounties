@@ -10,6 +10,9 @@
 
 People using Stellar Laboratory on mobile devices do not have a very good user experience. Layout is scaled to fit the whole screen, along with text size, which makes it difficult for users to interact with the lab.
 
+<img src="https://user-images.githubusercontent.com/4253551/127361354-1f9d166b-ef5b-4651-bb96-ad3e4a79555b.png" width="380"/>
+
+
 With majority of global traffic being on mobile ([source](https://www.statista.com/statistics/277125/share-of-website-traffic-coming-from-mobile-devices/)), this possibly hinders adoption of Stellar network to mobile users.
 
 ### What are the requirements for the bounty hunter?
