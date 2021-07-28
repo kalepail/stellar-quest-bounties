@@ -1,4 +1,4 @@
-# Operation Duplication for Stellar Laboratory
+# Operation Reorder improvement for Stellar Laboratory
 
 | Hunter | Agent
 | :- | :-
@@ -45,4 +45,3 @@ functionality would be really helpful.
 
 - https://github.com/stellar/laboratory
 - https://laboratory.stellar.org/#txbuilder
-
