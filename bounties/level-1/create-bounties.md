@@ -29,5 +29,5 @@ The suggested task should be useful to the Stellar ecosystem.
 - https://github.com/tyvdh/stellar-quest-bounties
 
 ## Example
-
+- https://github.com/tyvdh/stellar-quest-bounties/pull/13
 - https://github.com/tyvdh/stellar-quest-bounties/pull/9
