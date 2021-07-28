@@ -1,0 +1,48 @@
+name: Create Tracking issue
+on: 
+  push:
+    branches:
+      - master
+      - main
+    paths:
+      - 'bounties/*/*.md'    # include all possible markdown files in subdirs
+      - '!bounties/*/_*.md'  # remove all markdown files prefixed with _ as those are tempoary.
+
+jobs:
+  create_issue:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Get changed files
+        id: changed-files
+        uses: tj-actions/changed-files@v9
+        with:
+          files: bounties\/.+\/[A-Za-z0-9\-]+.md   # match bounties/**/[A-Za-z0-9]+.md
+      - name: Create Tracking Issues
+        shell: bash
+        run: |
+          echo "Processing ${{ steps.changed-files.outputs.all_modified_files }}"
+          str="${{ steps.changed-files.outputs.all_modified_files }}"
+          arr=($str)
+          for file in "${arr[@]}"; do
+            export bounty="$(echo $file | cut -c 10-)" # cut off first dir
+            echo "$file -> $bounty"
+            export name="[Tracking] \`$bounty\`"
+            # check for existing issues with this name
+            export upstream_issue=$(curl -s -H "Accept: application/vnd.github.v3+json" https://api.github.com/repos/${{ github.repository }}/issues | jq ".[] | select(.pull_request==null) | select(.title == \"$name\")")
+            if [ "$upstream_issue" == "" ]; then
+              # submit new issue
+              curl --request POST \
+              -s \
+              --url https://api.github.com/repos/${{ github.repository }}/issues \
+              --header 'authorization: Bearer ${{ secrets.GITHUB_TOKEN }}' \
+              --header 'content-type: application/json' \
+              --data "{
+                \"title\": \"$name\",
+                \"body\": \"This issue is tracking [$bounty]($GITHUB_SERVER_URL/$GITHUB_REPOSITORY/blob/${GITHUB_REF#refs/heads/}/$file)\"
+                }" \
+              --fail
+            fi
+          done          
