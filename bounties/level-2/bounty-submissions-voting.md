@@ -32,9 +32,9 @@ The developer should provide a completed fork of the bounty repository implement
  - Fork the bounty [repository](https://github.com/tyvdh/stellar-quest-bounties) and submit a PR with implemented solution
  - Create a [new issue](https://github.com/tyvdh/stellar-quest-bounties/issues/new) in the bounty [repository](https://github.com/tyvdh/stellar-quest-bounties)
    - Choose `review <title of the bounty issue>` as the issue's title
-   - In the new issue description link to the original bounty issue and your PR in laboratory repository
+   - In the new issue description link to the original bounty issue and your PR in bounty repository
    - Add a comment to the bounty issue linking to your newly created review issue to denote it being ready for review
 
 ## Links
- - https://github.com/stellar/laboratory
- - https://laboratory.stellar.org/#?network=test
+ - https://github.com/tyvdh/stellar-quest-bounties
+ - https://docs.github.com/en/developers/apps
