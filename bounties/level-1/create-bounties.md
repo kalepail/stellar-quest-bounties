@@ -2,16 +2,28 @@
 
 | Hunter | Agent
 | :- | :-
-| 500 XLM per bounty | 0 Credits (success will be determined by PR acceptance)
+| 200 XLM per bounty | 0 Credits (success will be determined by PR acceptance)
 
 ## Description
 
 ### What is this task?
 
 This task involves suggesting useful bounties to the Stellar Quest Bounty repository.  
-This is achieved by creating a PR in said repository adding a Markdown file describing the suggested task.  
-The task should also be graded by difficulty / effort and saved into the corresponding folder.
+This is achieved by creating a PR in said repository adding a markdown file describing the suggested task.  
+The given template file for bounties must be used as a baseline template.
 
+The level and payout should be determined by difficulty / effort of the task given.  
+
+Typical bounty payout include:  
+| Level | XLM Payout | Credit payout
+| :-    | :-         | :-
+| 1     | <500       | 2
+| 2     | 500-5000   | 2-10
+| 3     | >5000      | >10
+
+(These may change over time)  
+
+The submitted Markdown file must be placed in the correct folder for the given difficulty.
 ### What are the requirements for the bounty hunter?
 
 The suggested task should be useful to the Stellar ecosystem.
@@ -22,7 +34,7 @@ The suggested task should be useful to the Stellar ecosystem.
   * The developer should provide a completed pull request that has been reviewed and accepted by the moderators
   
 *Submission Procedure* <br>
-  * Submit your PR link as a comment on the specific issue thread for this bounty
+  * Submit a PR editing this file by appending a link to your _accepted_ pull request beneath `Submissions`.
 
 ## Links
 
@@ -31,3 +43,5 @@ The suggested task should be useful to the Stellar ecosystem.
 ## Example
 - https://github.com/tyvdh/stellar-quest-bounties/pull/13
 - https://github.com/tyvdh/stellar-quest-bounties/pull/9
+
+## Submissions
