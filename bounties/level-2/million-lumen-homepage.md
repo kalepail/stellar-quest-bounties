@@ -14,7 +14,7 @@ The task is to create a grid of million pixels up for sale and the cost of each 
 
 ### What are the requirements for the bounty hunter?
 
-The developer should have knowledge of Web Technologies, Stellar Turrets, and Stellar SDK.
+The developer should have knowledge of Web Technologies and Stellar SDK.
 
 ### What are the deliverables?
 
