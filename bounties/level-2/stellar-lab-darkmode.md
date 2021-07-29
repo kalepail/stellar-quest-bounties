@@ -2,7 +2,7 @@
 
 | Hunter | Agent
 | :- | :-
-| 750-1500 XLM | 4 Credits
+| 2000 XLM | 5 Credits
 
 ## Description
 
@@ -11,14 +11,12 @@
 Our eyes are bleeding! Who is brave enough to help?  
 Implement a dark mode theme for the Stellar Lab similar to GitHub.
 
-750 XLM may be earned for the dark mode theme it self the other 750 for implementing a user choice between those two templates. 
-
 ### What are the requirements for the bounty hunter?
 
 The developer should have knowledge of Stellar Laboratory and some design choices.
 
 ### What are the deliverables?
-The developer should provide a completed fork of the laboratory implementing new functionality with either one or both of following items:
+The developer should provide a completed fork of the laboratory implementing new functionality with following requirements:
  - [ ] Add dark mode template
  - [ ] Implement User choice between different templates
 
@@ -29,12 +27,9 @@ The developer should provide a completed fork of the laboratory implementing new
 #### *Submission Procedure*
 
  - Fork the laboratory [repository](https://github.com/stellar/laboratory) and submit a PR with implemented solution
- - Create a [new issue](https://github.com/tyvdh/stellar-quest-bounties/issues/new) in the bounty [repository](https://github.com/tyvdh/stellar-quest-bounties)
-   - Choose `review <title of the bounty issue>` as the issue's title
-   - In the new issue description link to the original bounty issue and your PR in laboratory repository
-   - Add a comment to the bounty issue linking to your newly created review issue to denote it being ready for review
+ - Submit a PR editing this file by appending a link to the created laboratory PR beneath `Submissions`
 
 ## Links
  - https://github.com/stellar/laboratory
 
-
+## Submissions
