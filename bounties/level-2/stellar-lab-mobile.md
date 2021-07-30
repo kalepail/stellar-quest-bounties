@@ -1,5 +1,7 @@
 # Mobile-friendly Layout on Stellar Laboratory
 
+**🚨 This bounty is on hold for the time being while the Laboratory team works through a significant refactor 🚨**
+
 | Hunter | Agent
 | :- | :-
 | 3500 XLM | 10 Credits
