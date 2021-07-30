@@ -3,7 +3,7 @@
 
 | Hunter | Agent
 | :- | :-
-| 800 XLM | 2 Credits
+| 2000 XLM | 4 Credits
 
 ## Description
 
@@ -22,11 +22,11 @@ The developer should have knowledge of Web Technologies and Stellar SDK.
   * The developer should provide a link to a repository implementing the new functionality.
 
 *Judging Criteria and Metrics* <br>
-  * MVP - Does the functionality match with what's stated in the proposal? And how similar it is to the original concept?
+  * MVP - Does the functionality match with what's stated in the [proposal](https://en.wikipedia.org/wiki/The_Million_Dollar_Homepage)? And how similar it is to the original concept?
   * UX - Is the UI intuitive and user friendly? Does it adhere to design standards for UI elements and interactions?
   
 *Submission Procedure* <br>
-  * Submit a link to your repository as a comment on the specific issue thread for this bounty.
+  * Submit a link to your repository as a PR on the bounty document itself.
   
 ## Links
 
