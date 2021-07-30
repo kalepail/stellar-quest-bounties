@@ -1,5 +1,7 @@
 # Sign with Albedo on Stellar Laboratory
 
+**✅ This bounty has been completed as is no longer available for hunting ✅**
+
 | Hunter | Agent
 | :- | :-
 | 2000 XLM | 6 Credits
