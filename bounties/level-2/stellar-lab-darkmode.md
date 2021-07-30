@@ -1,5 +1,7 @@
 # Create dark mode Theme for Stellar Lab
 
+**🚨 This bounty is on hold for the time being while the Laboratory team works through a significant refactor 🚨**
+
 | Hunter | Agent
 | :- | :-
 | 2000 XLM | 5 Credits
