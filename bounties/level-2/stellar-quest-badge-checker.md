@@ -30,4 +30,5 @@ The idea is someone wants to give you VIP status at a conference, $100,000 off y
 ---
 
 ## Submissions
+- https://github.com/rahimklaber/stellar_quest_badge_checker
 - [Your github repo link here]
