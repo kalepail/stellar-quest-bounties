@@ -1,7 +1,7 @@
 
 # Operation Duplication for Stellar Laboratory
 
-✅ This bounty has been completed as is no longer available for hunting ✅
+**✅ This bounty has been completed and is no longer available for hunting ✅**
 
 | Hunter | Agent
 | :- | :-

@@ -1,6 +1,6 @@
 # Sign with Albedo on Stellar Laboratory
 
-**✅ This bounty has been completed as is no longer available for hunting ✅**
+**✅ This bounty has been completed and is no longer available for hunting ✅**
 
 | Hunter | Agent
 | :- | :-
@@ -40,5 +40,3 @@ The developer should provide a completed fork of the laboratory implementing new
 ## Links
  - https://github.com/stellar/laboratory
  - https://laboratory.stellar.org/#txsigner
-
-
