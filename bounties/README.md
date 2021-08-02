@@ -1,9 +1,12 @@
-
 # Bounty Template
 
+## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
 | {x} XLM | {x} Credits | Capped ({x}) \| Continuos \| Competitive
+
+## Context
+https://github.com/tyvdh/stellar-quest-bounties/issues?q=bounty-template
 
 ## Description
 
