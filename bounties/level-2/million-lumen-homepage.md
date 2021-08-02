@@ -27,6 +27,11 @@ The developer should have knowledge of Web Technologies and Stellar SDK.
   
 *Submission Procedure* <br>
   * Submit a link to your repository as a PR on the bounty document itself.
+
+## Ideas
+ * Maybe consider using IPFS or Arweave to store and reference the data with an immutable link from the Stellar blockchain to our NFT. If you are trying to use some other storage, make sure to atleast have a unique content identifier for the stored data so we know nobody can replace or alter the content without breaking the link.
+ * Maybe you could build the page out of memo identifies of payments.
+ * If you're planning to mint and store the NFT on the Stellar blockchain itself, make sure to factor in the number of data entries allowed on a Stellar account.
   
 ## Links
 
