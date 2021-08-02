@@ -1,8 +1,12 @@
 # Creating Bounty Suggestions
 
+## Award
 | Hunter | Agent | Type
 | :- | :- | :-
 | 200 XLM per submission | 0 Credits | Continuous
+
+## Context
+https://github.com/tyvdh/stellar-quest-bounties/issues?q=create-bounties.md
 
 ## Description
 
