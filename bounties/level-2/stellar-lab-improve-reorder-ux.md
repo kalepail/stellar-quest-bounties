@@ -38,10 +38,10 @@ functionality would be really helpful.
   * Create a fork of the [lab repository] and implement the solution
   * Create a pull-request from your submission into the [lab repository]
     * make sure to follow their [contribution guidelines](https://github.com/stellar/laboratory/blob/master/CONTRIBUTING.md)
-  * [Add a link](https://github.com/tyvdh/stellar-quest-bounties/edit/main/bounties/level-2/stellar-lab-improve-reorder-ux.md) to your pull-request to the submissions section below
-    * create a PR to merge the patch-branch (name the branch `<discordname>/<title of the bounty-issue>`) into `main` branch
-    * choose `review <title of the bounty-issue>` as title for your PR
-    * mention the bounty-issue in the PR description field
+  * [Add a link](https://github.com/tyvdh/stellar-quest-bounties/edit/main/bounties/level-2/stellar-lab-improve-reorder-ux.md) to your pull-request to the [submissions](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/stellar-lab-improve-reorder-ux.md#submissions) section below
+    * create a PR to merge the patch-branch (the one that adds your submission to this file) into `main` branch
+      * choose `review <title of the bounty-issue>` as title for your PR
+      * mention the bounty-issue in the PR description field
 
 ## Submissions
 
