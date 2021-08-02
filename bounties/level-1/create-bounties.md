@@ -1,40 +1,42 @@
 # Creating Bounty Suggestions
 
-| Hunter | Agent
-| :- | :-
-| 200 XLM per bounty | 0 Credits (success will be determined by PR acceptance)
+| Hunter | Agent | Type
+| :- | :- | :-
+| 200 XLM per submission | 0 Credits | Continuous
 
 ## Description
 
 ### What is this task?
 
-This task involves suggesting useful bounties to the Stellar Quest Bounty repository.  
-This is achieved by creating a PR in said repository adding a markdown file describing the suggested task.  
-The given template file for bounties must be used as a baseline template.
+The quintessence of Stellar Quest Bounties are - *drumroll* - the bounties!  
+To be able to provide interesting but also useful projects every idea is desirable.  
+To do justice to the idea of Stellar Quest Bounties, what else than to host a bounty hunt to create new bounties! _Bounty-ception!_  
 
-The level and payout should be determined by difficulty / effort of the task given.  
-
-Typical bounty payout include:  
-| Level | XLM Payout | Credit payout
-| :-    | :-         | :-
-| 1     | <500       | 2
-| 2     | 500-5000   | 2-10
-| 3     | >5000      | >10
-
-(These may change over time)  
-
-The submitted Markdown file must be placed in the correct folder for the given difficulty.
 ### What are the requirements for the bounty hunter?
+This task involves suggesting useful bounties to the Stellar Quest Bounty repository.  
+_Suggested bounties must be related to the Stellar ecosystem._
 
-The suggested task should be useful to the Stellar ecosystem.
+Following standards are to be incorporated:
+ 
+* The [given template file](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/README.md) must be used as a baseline for all submissions.
+
+* The level and payout should be determined by difficulty / effort of the task given.  
+
+* Typical payouts and difficulty assessments for each level can be found in the related `level-{n}/README.md`
+  - [Level 1](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/README.md)
+  - [Level 2](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/README.md)
+  - [Level 3](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-3/README.md)
+
+* The submitted Markdown file must be placed in the folder of the given difficulty and named after the bounty title. Example given: `level-{n}/my-bounty-name.md`.
+
+Overall there is a lot of freedom regarding possible quests therefor: be creative!  
 
 ### What are the deliverables?
 
-*Description*  <br>
-  * The developer should provide a completed pull request that has been reviewed and accepted by the moderators
-  
-*Submission Procedure* <br>
-  * Submit a PR editing this file by appending a link to your _accepted_ pull request beneath `Submissions`.
+#### Description
+  - The developer must provide a PR to the [SQ Bounties Repository](https://github.com/tyvdh/stellar-quest-bounties) adding the Markdown file describing the proposed bounty.
+#### Review Criteria
+  - The bounty is considered to be complete as soon as the PR is approved and merged.
 
 ## Links
 
@@ -43,5 +45,3 @@ The suggested task should be useful to the Stellar ecosystem.
 ## Example
 - https://github.com/tyvdh/stellar-quest-bounties/pull/13
 - https://github.com/tyvdh/stellar-quest-bounties/pull/9
-
-## Submissions
