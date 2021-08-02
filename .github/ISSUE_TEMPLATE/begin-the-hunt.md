@@ -1,7 +1,10 @@
 ---
 name: Begin The Hunt!
 about: Use when beginning a new bounty hunt
-title: "[HUNT] <title-of-bounty-file>"
+title: "\U0001F535 <title-of-bounty-file>"
 labels: ''
 assignees: ''
+
 ---
+
+
