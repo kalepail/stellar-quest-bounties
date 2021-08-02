@@ -28,8 +28,8 @@ The developer should provide a completed fork of the laboratory implementing new
 
 #### *Submission Procedure*
 
- - Fork the laboratory [repository](https://github.com/stellar/laboratory) and submit a PR with implemented solution
- - Submit a PR editing this file by appending a link to the created laboratory PR beneath `Submissions`
+ - Fork the laboratory [repository](https://github.com/stellar/laboratory) and open a PR with implemented solution. The PR should target your fork, not the laboratory directly.
+ - Submit a PR to the quest-bounties [repository](https://github.com/tyvdh/stellar-quest-bounties) editing this file by appending a link to the created laboratory PR beneath `Submissions`
 
 ## Links
  - https://github.com/stellar/laboratory
