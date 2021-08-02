@@ -1,6 +1,8 @@
 
 # Create template proposal for bounties.
 
+✅ This bounty has been completed and is no longer available for hunting ✅
+
 | Hunter | Reviewer
 | :- | :-
 | 200 XLM | 0 Credits (success will be determined by PR acceptance)
