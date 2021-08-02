@@ -2,7 +2,7 @@
 
 **🚨 This bounty is on hold for the time being while the Laboratory team works through a significant refactor 🚨**
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 3500 XLM | 10 Credits
 

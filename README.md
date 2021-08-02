@@ -1,6 +1,18 @@
 # Stellar Quest Bounties
 https://docs.google.com/document/d/1d9EME577kTsUIyryxVqW1-5o8z-zx10pY9G-QV3RPx4/edit?usp=sharing
 
+## Bounty Types
+There are three types of bounties in the Stellar Quest Bounties universe. Each with their own merits, joys and sorrows. Choose wisely.
+
+### Capped ({x})
+The first and most common bounty type is the capped bounty. These tend to be relatively short lived and achievable bounties. There exists a limited number of awards for each bounty as denoted by the cap. These are most often employed when an PR, service or contribution is needed quickly and the cost is related geared more towards an answer arriving speedily and less that it's specific. It's also a great bounty type for exploring innovative answers and testing assumptions by allowing for several different answers and explorations.
+
+### Continuous
+The second bounty type is the educational bounty. These aim at being longer format and less strict Stellar Quest challenges. These are evergreen bounties able to be claimed forever and always by any curious newcomer able and eager to test their knowledge and increase in experience. Don't let the lower value prize fool you, these are great bounties to level up your skills such that bigger bounties and future Stellar Quests are more easily conquered.
+
+### Competitive
+The last bounty type is the competitive bounty which is rewarded in a graduated manner according to the details laid out in the bounty file. These will be short lived, well structured and event based bounties with prizes being paid out top to bottom for anyone meeting review criteria. These aren't incredible common as we have the [SCF](https://communityfund.stellar.org/) for more structured, long format competitive funding but occasionally you just need a little something different and for that we have competitive bounties.
+
 ## Flow for Bounty Hunters
 
 Ready to start claiming bounties and earning rewards? Here's how.

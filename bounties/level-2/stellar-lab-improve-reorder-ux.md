@@ -1,6 +1,6 @@
 # Operation Reorder improvement for Stellar Laboratory
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 550 XLM | 3 Credits
 

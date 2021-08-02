@@ -1,7 +1,7 @@
 
 # Create template proposal for bounties.
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 200 XLM | 0 Credits (success will be determined by PR acceptance)
 

@@ -3,7 +3,7 @@
 
 **✅ This bounty has been completed and is no longer available for hunting ✅**
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 300 XLM | 2 Credits
 

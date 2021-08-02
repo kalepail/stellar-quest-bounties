@@ -1,6 +1,6 @@
 # Stellar Quest Badge Checker
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 3500 XLM | 6 Credits
 

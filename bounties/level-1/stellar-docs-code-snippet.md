@@ -1,6 +1,6 @@
 # Improve Stellar Documentation SDK Examples
 
-| Hunter | Agent
+| Hunter | Reviewer
 | :- | :-
 | 50 XLM per example | 0 Credits (success will be determined by PR acceptance by the SDF docs maintainers)
 
