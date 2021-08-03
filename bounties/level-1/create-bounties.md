@@ -6,7 +6,7 @@
 | 200 XLM per submission | 0 Credits | Continuous
 
 ## Context
-https://github.com/tyvdh/stellar-quest-bounties/issues?q=create-bounties.md
+https://github.com/tyvdh/stellar-quest-bounties/issues?q=create-bounties
 
 ## Description
 
@@ -33,19 +33,19 @@ Following standards are to be incorporated:
 
 * The submitted Markdown file must be placed in the folder of the given difficulty and named after the bounty title. Example given: `level-{n}/my-bounty-name.md`.
 
-Overall there is a lot of freedom regarding possible quests therefor: be creative!  
+Overall there is a lot of freedom regarding possible quests therefore: be creative!  
 
 ### What are the deliverables?
 
 #### Description
-  - The developer must provide a PR to the [SQ Bounties Repository](https://github.com/tyvdh/stellar-quest-bounties) adding the Markdown file describing the proposed bounty.
+* The developer must provide a PR to the [SQ Bounties Repository](https://github.com/tyvdh/stellar-quest-bounties) adding the Markdown file describing the proposed bounty.
+
 #### Review Criteria
-  - The bounty is considered to be complete as soon as the PR is approved and merged.
+* The bounty is considered to be complete as soon as the PR is approved and merged.
 
 ## Links
-
-- https://github.com/tyvdh/stellar-quest-bounties
+* https://github.com/tyvdh/stellar-quest-bounties
 
 ## Example
-- https://github.com/tyvdh/stellar-quest-bounties/pull/13
-- https://github.com/tyvdh/stellar-quest-bounties/pull/9
+* https://github.com/tyvdh/stellar-quest-bounties/pull/13
+* https://github.com/tyvdh/stellar-quest-bounties/pull/9
