@@ -33,7 +33,6 @@ The developer should have knowledge of the Markdown language.
   * Submit a link to your laboratory fork as a comment on the specific issue thread for this bounty
 
 ## Links
-
 - https://github.com/tyvdh/stellar-quest-bounties
 
 ## Examples
