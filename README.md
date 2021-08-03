@@ -8,7 +8,7 @@ Additional to this Stellar Quest Bounties provides an avenue for directing small
 
 Stellar Quest Bounties are broken up into two distinct groups, well really three but primarily two. Hunters and Reviewers. The names are pretty self explanatory with Hunters being those doing the work of achieving the spec of the bounty and Reviewers auditing that work to ensure it meets the standard and actually accomplishes the task sufficiently. The unique bit here is that both Hunters and Reviewers get paid in this system, not just those doing the bounty work. 
 
-The third group at work here are those writing and funding the bounties, but that most often will be SDF and/or other Stellar based business and enterprises. However you too can write bounties! (Hint there's even a continuos [bounty for writing bounties](https://github.com/tyvdh/stellar-quest-bounties/pull/13)!). This third group isn't heavily involved in the bounty process outside of an initial PR into the `./bounties` directory so we won't spend too much time on them. For more info about writing a bounty see our [bounty template](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/README.md) and our ["submit a bounty"](https://github.com/tyvdh/stellar-quest-bounties/pull/13) bounty.
+The third group at work here are those writing and funding the bounties, but that most often will be SDF and/or other Stellar based business and enterprises. However you too can write bounties! (Hint there's even a continuous [bounty for writing bounties](https://github.com/tyvdh/stellar-quest-bounties/pull/13)!). This third group isn't heavily involved in the bounty process outside of an initial PR into the `./bounties` directory so we won't spend too much time on them. For more info about writing a bounty see our [bounty template](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/README.md) and our ["submit a bounty"](https://github.com/tyvdh/stellar-quest-bounties/pull/13) bounty.
 
 ### Hunters
 Can claim and accomplish bounties in exchange for rewards.
@@ -16,9 +16,9 @@ Can claim and accomplish bounties in exchange for rewards.
 Hunters claim open bounties at the level they are qualified for and complete the objectives, finally submitting the task for review by a reviewer. The reviewer will assign the task a state of either pass, fail or retry. Upon pass the hunter is awarded their share of the award amount as detailed by the bounty spec.
 
 ### Reviewers
-Can review bounties in exchange for credits which can be exchanged for rewards.
+Can review bounties in exchange for reviewer credits which can be exchanged for rewards.
 
-Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded credits which they may exchange for USDC at any point at the rate which their level allows. (Currently 50 USDC per credit)
+Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded credits which they may exchange for USDC at any point at a fixed rate (currently 50 USDC per credit).
 
 ## Bounty Types
 There are three types of bounties in the Stellar Quest Bounties universe. Each with their own merits, joys and sorrows. Choose wisely.
