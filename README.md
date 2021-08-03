@@ -16,9 +16,9 @@ Can claim and accomplish bounties in exchange for rewards.
 Hunters claim open bounties at the level they are qualified for and complete the objectives, finally submitting the task for review by a reviewer. The reviewer will assign the task a state of either pass, fail or retry. Upon pass the hunter is awarded their share of the award amount as detailed by the bounty spec.
 
 ### Reviewers
-Can review bounties in exchange for credits which can be exchanged for rewards.
+Can review bounties in exchange for reviewer credits which can be exchanged for rewards.
 
-Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded credits which they may exchange for USDC at any point at the rate which their level allows. (Currently 50 USDC per credit)
+Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded credits which they may exchange for USDC at any point at a fixed rate (currently 50 USDC per credit).
 
 ## Bounty Types
 There are three types of bounties in the Stellar Quest Bounties universe. Each with their own merits, joys and sorrows. Choose wisely.
