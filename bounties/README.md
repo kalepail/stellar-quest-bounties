@@ -5,10 +5,9 @@
 | :- | :- | :-
 | {x} XLM | {x} Credits | Capped ({x}) \| Continuos \| Competitive
 
-[🔵 Start hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.md&title=%F0%9F%94%B5+%60{bounty-file-name}%60) this bounty.
-
-## Context
-https://github.com/tyvdh/stellar-quest-bounties/issues?q={bounty-file-name}
+[//]: # (make sure to replace the file-name placeholder '{bounty-file-name}' in the next two lines with the actual filename)
+📜 Show [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q={bounty-file-name}) for this bounty. \
+🔵 Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.md&title=%F0%9F%94%B5+%60{bounty-file-name}%60) this bounty.
 
 ## Description
 
