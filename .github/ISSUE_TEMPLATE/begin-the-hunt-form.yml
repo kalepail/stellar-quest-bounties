@@ -16,7 +16,7 @@ body:
     id: bounty
     attributes:
       label: Link the bounty file
-      description: Paste the link to the bounty file to help reviewers find the bounty spec quickly
+      description: Paste the link to the file for this bounty to help reviewers find the spec quickly
       placeholder: https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md
     validations:
       required: true
