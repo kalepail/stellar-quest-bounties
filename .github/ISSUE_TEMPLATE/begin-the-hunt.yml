@@ -25,11 +25,9 @@ body:
       label: Description
       description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
       value: |
-        <!-- 
-        Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
-        1. 🔵&nbsp; Started working
-        2. 🟢&nbsp; Ready for review
-        3. 🟣&nbsp; Review completed
-        -->
+        ## Progress 
+        [x] 🔵&nbsp; Started working
+        [ ] 🟢&nbsp; Ready for review
+        [ ] 🟣&nbsp; Review completed
     validations:
       required: false
