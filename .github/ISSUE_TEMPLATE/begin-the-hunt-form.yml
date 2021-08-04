@@ -4,15 +4,15 @@ title: "\U0001F535 `<title-of-bounty-file>.md`"
 labels: []
 assignees:
 body:
-  - type: markdown
-    attributes:
-      value: |
-        This issue tracks progress on the bounty mentioned in the title.
+  # - type: markdown
+  #   attributes:
+  #     value: |
+  #       This issue tracks progress on the bounty mentioned in the title.
 
-        Please remember to mark and update your issue title with a prefix emoji of:
-        1. 🔵&nbsp;: started working
-        2. 🟢&nbsp;: ready for review
-        3. 🟣&nbsp;: review completed
+  #       Please remember to mark and update your issue title with a prefix emoji of:
+  #       1. 🔵&nbsp;: started working
+  #       2. 🟢&nbsp;: ready for review
+  #       3. 🟣&nbsp;: review completed
   - type: input
     id: bounty
     attributes:
