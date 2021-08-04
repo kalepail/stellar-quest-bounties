@@ -1,0 +1,72 @@
+name: Begin The Hunt!
+description: Use when beginning a new bounty hunt
+title: "\U0001F535 `<title-of-bounty-file>.md`"
+labels: []
+assignees:
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This issue tracks progress on the bounty mentioned in the title.
+
+        Please remember to mark and update your issue title with a prefix emoji of:
+        1. 🔵&nbsp;: started working
+        2. 🟢&nbsp;: ready for review
+        3. 🟣&nbsp;: review completed
+
+  - type: input
+    id: bounty
+    attributes:
+      label: Link the bounty file
+      description: Paste the link to the bounty file to help reviewers find the bounty spec quickly
+      placeholder: https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md
+    validations:
+      required: true
+
+  - type: textarea
+    id: info
+    attributes:
+      label: Description
+      description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
+      placeholder: 
+      value: 
+    validations:
+      required: false
+
+  # - type: dropdown
+  #   id: version
+  #   attributes:
+  #     label: Version
+  #     description: What version of our software are you running?
+  #     options:
+  #       - 1.0.2 (Default)
+  #       - 1.0.3 (Edge)
+  #   validations:
+  #     required: true
+
+  # - type: dropdown
+  #   id: browsers
+  #   attributes:
+  #     label: What browsers are you seeing the problem on?
+  #     multiple: true
+  #     options:
+  #       - Firefox
+  #       - Chrome
+  #       - Safari
+  #       - Microsoft Edge
+
+  # - type: textarea
+  #   id: logs
+  #   attributes:
+  #     label: Relevant log output
+  #     description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+  #     render: shell
+
+  # - type: checkboxes
+  #   id: terms
+  #   attributes:
+  #     label: Code of Conduct
+  #     description: By submitting this issue, you agree to follow our [Code of Conduct](https://example.com)
+  #     options:
+  #       - label: I agree to follow this project's Code of Conduct
+  #         required: true
