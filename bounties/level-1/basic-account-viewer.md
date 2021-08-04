@@ -14,12 +14,14 @@ https://github.com/tyvdh/stellar-quest-bounties/issues?q=basic-account-viewer.md
 
 When building websites ontop of Stellar, there needs to be a way to access a user's Stellar account. This is where web-wallets like [Albedo](https://albedo.link/), [Rabet](https://rabet.io/) and [Freighter](https://www.freighter.app/) come in. They allow websites to easily and securely acces your Stellar account.
 
-Your task is to build a simple website which allows you to sign in using a web-wallet like Albedo, Freighter or Rabet.
+Your task is to build a simple website which allows you to sign in and log out using a web-wallet like Albedo, Freighter or Rabet.
 
 The website should show some basic information about the account currently logged in:
  * The asset-codes and balances of the account's assets should be shown.
  * The date when the account was created should be shown.
  * The account who created this account should be shown.
+
+For this bounty, the UI is not important. However css and html should be used to create a simple layout. Additionally, the solution should be licensed as open source.
  
 ### What are the requirements for the bounty hunter?
 * The hunter should be able to build simple websites with Javascript.
@@ -30,7 +32,9 @@ The website should show some basic information about the account currently logge
   - The hunter should publish the website and provide a link to the published website.
 
 #### Review Criteria
-  - As long as all features are present and correctly implemented, the submission should be accepted.
+  - UI is not important, but there should atleast be a basic layout.
+  - The code quality is not important.
+  - The code should be checked to insure the integration with the web-wallet is done correctly.
 
 
 ## Links
