@@ -5,10 +5,8 @@
 | :- | :- | :-
 | 200 XLM per submission | 0 Credits | Continuous
 
-🔵 Suggest [a new](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.md&title=%F0%9F%94%B5+%60create-bounties%60) bounty.
-
-## Context
-https://github.com/tyvdh/stellar-quest-bounties/issues?q=create-bounties
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=create-bounties) for this bounty. \
+🔵&nbsp; Suggest [a new](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.md&title=%F0%9F%94%B5+%60create-bounties.md%60) bounty.
 
 ## Description
 
