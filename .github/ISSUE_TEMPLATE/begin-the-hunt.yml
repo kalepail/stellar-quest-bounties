@@ -20,8 +20,8 @@ body:
         - [x] 🔵&nbsp; Started working
         - [ ] 🟢&nbsp; Ready for review
         - [ ] 🟣&nbsp; Review completed
-    validations:
-      required: true
+    # validations:
+    #   required: true
 
   - type: textarea
     id: description
