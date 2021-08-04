@@ -36,9 +36,8 @@ The website should show some basic information about the account currently logge
 - [Albedo](https://albedo.link/)
 - [Rabet](https://rabet.io/)
 - [Freighter](https://www.freighter.app/)
-- [Stellar js Sdk](https://github.com/stellar/js-stellar-sdk)
+- [Stellar js SDK](https://github.com/stellar/js-stellar-sdk)
 - [Example of web-app with albedo sign in](https://app.lumenswap.io/swap)
 
 ## Ideas
  - Take a look at the [Stellar account viewer](https://github.com/stellar/account-viewer-v2) to see if you can get some ideas.
-
