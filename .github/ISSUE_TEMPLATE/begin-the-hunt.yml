@@ -25,7 +25,7 @@ body:
       label: Description
       description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
       value: |
-        ### Progress 
+        #### Progress 
         - [x] 🔵&nbsp; Started working
         - [ ] 🟢&nbsp; Ready for review
         - [ ] 🟣&nbsp; Review completed
