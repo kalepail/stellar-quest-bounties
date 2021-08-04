@@ -14,7 +14,7 @@ body:
   - type: textarea
     id: progress
     attributes:
-      label: Progress
+      label: Mark your progress
       description: Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
       value: |
         - [x] 🔵&nbsp; Started working
@@ -26,7 +26,7 @@ body:
   - type: textarea
     id: details
     attributes:
-      label: Details
+      label: Provide relevant details
       description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
     validations:
       required: false
