@@ -1,5 +1,7 @@
 # Basic account viewer
 
+[🔵 Start hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.md&title=%F0%9F%94%B5+%60basic-account-viewer%60) this bounty
+
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
