@@ -2,14 +2,6 @@ name: Begin The Hunt!
 description: Use when beginning a new bounty hunt
 title: "\U0001F535 `<title-of-bounty-file>.md`"
 body:
-  - type: markdown
-    attributes:
-      value: |
-        Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
-        1. 🔵&nbsp; Started working
-        2. 🟢&nbsp; Ready for review
-        3. 🟣&nbsp; Review completed
-
   - type: input
     id: bounty
     attributes:
@@ -19,15 +11,22 @@ body:
     validations:
       required: true
 
-  - type: textarea
-    id: info
+  - type: markdown
+    id: progress
     attributes:
-      label: Description
-      description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
+      label: Progress
+      description: Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
       value: |
-        #### Progress 
         - [x] 🔵&nbsp; Started working
         - [ ] 🟢&nbsp; Ready for review
         - [ ] 🟣&nbsp; Review completed
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+      description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
     validations:
       required: false
