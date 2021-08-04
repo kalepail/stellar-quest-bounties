@@ -23,7 +23,7 @@ The website should show some basic information about the account currently logge
  * The date when the account was created should be shown.
  * The account who created this account should be shown.
 
-For this bounty, the UI is not important. However css and html should be used to create a simple layout. Additionally, the solution should be licensed as open source.
+For this bounty, the UI is not important. However CSS and HTML should be used to create a simple layout. Additionally, the solution should be licensed as open source.
  
 ### What are the requirements for the bounty hunter?
 * The hunter should be able to build simple websites with Javascript.
