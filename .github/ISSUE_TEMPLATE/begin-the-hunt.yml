@@ -3,7 +3,7 @@ description: Use when beginning a new bounty hunt
 title: "\U0001F535 `<title-of-bounty-file>.md`"
 body:
   - type: input
-    id: bounty
+    id: link
     attributes:
       label: Link the bounty file
       description: Paste the link to the file for this bounty to help reviewers find the spec quickly
@@ -24,9 +24,9 @@ body:
       required: true
 
   - type: textarea
-    id: description
+    id: details
     attributes:
-      label: Description
+      label: Details
       description: Provide any relevant details for your bounty which reviewers would find helpful or relevant
     validations:
       required: false
