@@ -10,7 +10,9 @@ This issue tracks progress on the bounty mentioned in the title.
 
 ## Progress
 [//]: # (please update the issue title when to start with the given colored emoji after checking a box)
-[//]: # (please link PR or issue here or in a new comment when checking ready for review)
 - [x] 🔵: started working
 - [ ] 🟢: ready for review
 - [ ] 🟣: review done
+
+## Bounty resources
+[//]: # (please link PR or issue here or in a new comment latest when checking ready for review)
