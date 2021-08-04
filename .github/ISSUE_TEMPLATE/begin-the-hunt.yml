@@ -13,23 +13,12 @@ body:
 
   - type: markdown
     attributes:
-      label: Progress
       value: |
+        #### Progress
+        Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
         - [x] 🔵&nbsp; Started working
         - [ ] 🟢&nbsp; Ready for review
         - [ ] 🟣&nbsp; Review completed
-
-  # - type: textarea
-  #   id: progress
-  #   attributes:
-  #     label: Progress
-  #     description: Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
-  #     value: |
-  #       - [x] 🔵&nbsp; Started working
-  #       - [ ] 🟢&nbsp; Ready for review
-  #       - [ ] 🟣&nbsp; Review completed
-  #   validations:
-  #     required: true
 
   - type: textarea
     id: description
