@@ -17,7 +17,7 @@ When building websites ontop of Stellar, there needs to be a way to access a use
 Your task is to build a simple website which allows you to sign in using a web-wallet like Albedo, Freighter or Rabet.
 
 The website should show some basic information about the account currently logged in:
- * The account's assets and their balances should be shown.
+ * The asset-codes and balances of the account's assets should be shown.
  * The date when the account was created should be shown.
  * The account who created this account should be shown.
  
@@ -27,6 +27,7 @@ The website should show some basic information about the account currently logge
 ### What are the deliverables?
 #### Description
   - The hunter should provide a link to the repository containing the solution.
+  - The hunter should publish the website and provide a link to the published website.
 
 #### Review Criteria
   - As long as all features are present and correctly implemented, the submission should be accepted.
@@ -41,3 +42,4 @@ The website should show some basic information about the account currently logge
 
 ## Ideas
  - Take a look at the [Stellar account viewer](https://github.com/stellar/account-viewer-v2) to see if you can get some ideas.
+ - Consider using github pages to host the website. If react is used, check out [Hosting react website on github pages](https://github.com/gitname/react-gh-pages).
