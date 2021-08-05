@@ -1,8 +1,8 @@
 # Stellar Quest Badge Checker
 
-| Hunter | Reviewer
-| :- | :-
-| 3500 XLM | 6 Credits
+| Hunter | Reviewer | Type
+| :- | :- | :-
+| 3500 XLM | 1200 XLM | Capped (5)
 
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-quest-badge-checker) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-quest-badge-checker.md%60) this bounty.

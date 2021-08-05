@@ -1,9 +1,8 @@
 # Basic account viewer
 
-## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 800 XLM | 2 Credits | Continuos
+| 800 XLM | 400 XLM | Continuos
 
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+basic-account-viewer) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60basic-account-viewer.md%60) this bounty.
@@ -35,7 +34,6 @@ For this bounty, the UI is not of primary importance. However CSS and HTML shoul
   - UI is not of primary importance but there should at least be a basic layout.
   - The code quality is also not primarily important but should function properly and be reasonably reviewable.
   - The code should be checked to insure the integration with the web-wallet is done correctly.
-
 
 ## Links
 - [Albedo](https://albedo.link/)
