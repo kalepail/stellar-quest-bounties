@@ -16,9 +16,9 @@ Can claim and accomplish bounties in exchange for rewards.
 Hunters claim open bounties at the level they are qualified for and complete the objectives, finally submitting the task for review by a reviewer. The reviewer will assign the task a state of either pass, fail or retry. Upon pass the hunter is awarded their share of the award amount as detailed by the bounty spec.
 
 ### Reviewers
-Can review bounties in exchange for reviewer credits which can be exchanged for rewards.
+Can review bounties in exchange for rewards.
 
-Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded credits which they may exchange for USDC at any point at a fixed rate (currently 50 USDC per credit).
+Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded their share of the award amount as detailed by the bounty spec.
 
 ## Bounty Types
 There are three types of bounties in the Stellar Quest Bounties universe. Each with their own merits, joys and sorrows. Choose wisely.
@@ -61,10 +61,11 @@ Ready to start claiming bounties and earning rewards? Here's how.
 - **Step 5: Claim your reward**
   - Once the review has concluded your bounty will either be resolved as ineligible (unlikely but possible in the case of a weak attempt or ineligible duplicate bounty claims) or ready for payout. 
   - If the latter you should adjust the title for your bounty with a 🟣&nbsp; prefix so we can ensure a timely reward payout.
+  - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to your issue. From there it's a simple task of claiming your XLM bounty reward!
 
 ## Flow for Bounty Reviewers
 
-Ready to review bounties and claim credit tokens for your expertise? Here's how.
+Ready to review bounties and get paid for your expertise? Here's how.
 
 - **Step 1: Choose a bounty**
   - Look through [all of the available bounties](https://github.com/tyvdh/stellar-quest-bounties/issues) in the `Issues` tab in this repo. They are divided into 3 difficulty levels so chose ones which feel appropriate to your skill, level of involvement and the earning potential that excites you. 
@@ -75,4 +76,5 @@ Ready to review bounties and claim credit tokens for your expertise? Here's how.
   - You have two courses of action on every bounty you review. Most commonly you will review, comment, resolve and discuss until the bounty is complete and you give it your stamp of approval for payout. In rare cases however a bounty may not have put in sufficient effort and you should mark it for tossing. In that case neither the hunter nor the reviewer will be rewarded so be slow to mark a bounty for the trash.
 
 - **Step 3: Claim your reward**
-  - Once you've marked a bounty as complete or for the trash your job is done until the payout is made to both the hunter and you. Your payout is slightly different in that it's in the form of a custom credit token which can be redeemed at any time for USDC (or any other asset DEX for that matter via path payments).
+  - Once you've marked a bounty as complete your job is done until the payout is made to both the hunter and you.
+  - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to the bounty issue which you reviewed. From there it's a simple task of claiming your XLM bounty reward!

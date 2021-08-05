@@ -3,7 +3,7 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| {x} XLM | {x} Credits | Capped ({x}) \| Continuos \| Competitive
+| {x} XLM | {x} XLM | Capped ({x}) \| Continuos \| Competitive
 
 [//]: # (make sure to replace the file-name placeholder '{bounty-file-name}' in the next two lines with the actual filename)
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+%7Bbounty-file-name%7D+) for this bounty. \
