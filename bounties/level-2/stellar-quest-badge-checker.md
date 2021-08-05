@@ -4,6 +4,9 @@
 | :- | :-
 | 3500 XLM | 6 Credits
 
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-quest-badge-checker) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-quest-badge-checker.md%60) this bounty.
+
 ## Description
 
 Being a Stellar Quester comes with perks, however the perks are only as claimable as the proof you have of your Stellar Quest account. To this end we're looking for an interesting, innovative web application for proving original ownership of Stellar Quest badges.

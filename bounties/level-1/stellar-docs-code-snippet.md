@@ -4,6 +4,9 @@
 | :- | :-
 | 50 XLM per example | 0 Credits (success will be determined by PR acceptance by the SDF docs maintainers)
 
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-docs-code-snippet) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-docs-code-snippet.md%60) this bounty.
+
 ## Description
 
 ### What is this task?

@@ -5,8 +5,9 @@
 | :- | :- | :-
 | 800 XLM | 2 Credits | Continuos
 
-📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=basic-account-viewer.md) for this bounty. \
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+basic-account-viewer) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60basic-account-viewer.md%60) this bounty.
+
 ## Description
 
 ### What is this task?
