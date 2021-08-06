@@ -11,17 +11,16 @@ body:
     validations:
       required: true
 
-  - type: textarea
+  - type: checkboxes
     id: progress
     attributes:
       label: Mark your progress
-      description: Please remember to mark **_and update_** the prefix of the title of this issue with one of the following emojis.
-      value: |
-        - [x] 🔵&nbsp; Started working
-        - [ ] 🟢&nbsp; Ready for review
-        - [ ] 🟣&nbsp; Review completed
-    validations:
-      required: true
+      description: Select the blue emoji (**required**) to mark your issue as started
+      options:
+        - label: 🔵&nbsp; Started working
+          required: true
+        - label: 🟢&nbsp; Ready for review
+        - label: 🟣&nbsp; Review completed
 
   - type: textarea
     id: details

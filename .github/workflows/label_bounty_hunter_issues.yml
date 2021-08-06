@@ -1,0 +1,76 @@
+name: Bounty hunter issue progress automation
+
+on:
+  issues: 
+    types: [opened, edited]
+
+jobs:
+  issue_commented:
+    name: "Map issue progress to labels"
+    if: ${{ !github.event.issue.pull_request }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel Previous Runs
+        uses: styfle/cancel-workflow-action@0.9.1
+        with:
+          access_token: ${{ github.token }}
+
+      # check for progress check-boxes
+      - name: Check if 'claimed' is checkd
+        uses: actions-ecosystem/action-regex-match@v2
+        id: check-claimed
+        with:
+          text: ${{ github.event.issue.body }}
+          regex: '- \[(.{1})\] \ud83d\udd35'
+      - name: Check if 'ready for review' is checkd
+        uses: actions-ecosystem/action-regex-match@v2
+        id: check-ready-for-review
+        with:
+          text: ${{ github.event.issue.body }}
+          regex: '- \[(.{1})\] \ud83d\udfe2'
+      - name: Check if 'review done' is checkd
+        uses: actions-ecosystem/action-regex-match@v2
+        id: check-review-done
+        with:
+          text: ${{ github.event.issue.body }}
+          regex: '- \[(.{1})\] \ud83d\udfe3'
+
+      # remove labels for unchecked boxes
+      - name: remove claimed label
+        uses: actions-ecosystem/action-remove-labels@v1
+        if: ${{ steps.check-ready-for-review.outputs.group1 == 'x' || steps.check-review-done.outputs.group1 == 'x' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty claimed
+      - name: remove ready for review label
+        uses: actions-ecosystem/action-remove-labels@v1
+        if: ${{ steps.check-claimed.outputs.group1 == ' ' || steps.check-review-done.outputs.group1 == 'x' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty ready for review
+      - name: remove review done label
+        uses: actions-ecosystem/action-remove-labels@v1
+        if: ${{ steps.check-claimed.outputs.group1 == ' ' || steps.check-ready-for-review.outputs.group1 == ' ' || steps.check-review-done.outputs.group1 == ' ' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty reviewed
+      
+      # add label according to progress
+      - name: add claimed label
+        uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == ' ' && steps.check-review-done.outputs.group1 == ' ' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty claimed
+      - name: add waiting for review label
+        uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == 'x' && steps.check-review-done.outputs.group1 == ' ' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty ready for review
+      - name: add review done label
+        uses: actions-ecosystem/action-add-labels@v1
+        if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == 'x' && steps.check-review-done.outputs.group1 == 'x' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty reviewed
