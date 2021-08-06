@@ -1,0 +1,33 @@
+name: Bounty hunter issue title management
+
+on:
+  issues:
+    types: [opened]
+
+jobs:
+  extract_filename_from_path:
+    name: "Generate the title from the filename"
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the spec filename
+        uses: actions-ecosystem/action-regex-match@v2
+        id: match-spec-filename
+        with:
+          text: ${{ github.event.issue.body }}
+          regex: '^\s*https:\/\/github\.com\/.*\/bounties\/level-([\d])+\/(.*\.md)$'
+          flags: m
+      - name: Add spec filename to title
+        uses: actions-cool/issues-helper@v2.2.1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ github.event.issue.number }}
+          actions: 'update-issue'
+          update-mode: 'replace'
+          title: "`${{ steps.match-spec-filename.outputs.group2 }}` ${{ github.event.issue.title }}"
+      - name: Add label for bounty level
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            bounty
+            level ${{ steps.match-spec-filename.outputs.group1 }}

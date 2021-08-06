@@ -1,6 +1,6 @@
 name: Begin The Hunt!
 description: Use when beginning a new bounty hunt
-title: "\U0001F535 `<title-of-bounty-file>.md`"
+title: "Bounty hunt"
 body:
   - type: input
     id: link
