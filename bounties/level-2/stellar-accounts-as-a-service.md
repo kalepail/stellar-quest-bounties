@@ -51,7 +51,7 @@ Server response: {
 
 Endpoint info:
 Making a POST request to this endpoint allows users to receive an apikey which can be used to use the service.
-The request body should be in Json format and the server response is a Json object.
+The request body should be in Json format and the server response is a JSON object.
 
 ```
 ```
