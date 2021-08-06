@@ -102,7 +102,7 @@ The hunter should be able to make simple Web APIs.
 #### Review Criteria
 - The API should be tested to insure proper functionality.
 - Code quality is not of primary importance but should be reasonable reviewable.
-- Security is also not primarily important but at least some attention should have been paid to security.
+- Security is also not primarily important but at least some attention should have been paid to security. Basic things like hashing passwords and mitigating SQL injections should have been done.
 
 ## Links
 - [repl.it for hosting the api](https://replit.com/~)
