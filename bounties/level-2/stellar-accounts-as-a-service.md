@@ -35,7 +35,7 @@ POST body: {
 
 Endpoint info:
 Making a POST request to this endpoint allows users to register an account with the service.
-The request body should be in Json format.
+The request body should be in JSON format.
 ```
 ```
 POST /login
