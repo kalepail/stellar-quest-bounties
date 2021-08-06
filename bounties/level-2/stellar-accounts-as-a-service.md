@@ -79,7 +79,7 @@ Request Headers : {
 
 POST body: {
   destination: "<stellar address or muxed account address>",
-  amount: "<amount of xlm to send>"
+  amount: "<amount of XLM to send>"
 }
 
 Endpoint info:
