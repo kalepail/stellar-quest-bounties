@@ -21,7 +21,7 @@ This approach is error-prone. Users can forget to add the memo, or they can inpu
 To solve this issue [muxed accounts](https://github.com/stellar/stellar-protocol/blob/master/core/cap-0027.md) were added to Stellar. Muxed accounts are essentially a way to combine Stellar addresses with integer identifiers.
 Payments sent to a muxed account are actually sent to the account used to create the muxed account. However, the muxed account identifier is also added to the transaction.
 
-For this bounty the task is to create an API for a custodial wallet service using muxed accounts.
+For this bounty the task is to create an API for a [custodial](https://www.gemini.com/cryptopedia/crypto-wallets-custodial-vs-noncustodial) wallet service using muxed accounts.
 A simple database should be used to keep track of the registered users, their muxed account addresses and their balances.
 
 The api should have the following endpoints:
