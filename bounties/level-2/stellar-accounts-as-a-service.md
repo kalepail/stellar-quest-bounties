@@ -68,7 +68,7 @@ Server response: {
 
 Endpoint info:
 Making a request to this endpoint allows users to receive information about their account address and their XLM balance.
-The Server response is a Json object.
+The Server response is a JSON object.
 ```
 ```
 POST /pay
