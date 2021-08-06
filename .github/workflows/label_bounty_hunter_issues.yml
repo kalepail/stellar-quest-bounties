@@ -41,19 +41,19 @@ jobs:
         if: ${{ steps.check-ready-for-review.outputs.group1 == 'x' || steps.check-review-done.outputs.group1 == 'x' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: started working
+          labels: work
       - name: remove ready for review label
         uses: actions-ecosystem/action-remove-labels@v1
         if: ${{ steps.check-claimed.outputs.group1 == ' ' || steps.check-review-done.outputs.group1 == 'x' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ready for review
+          labels: review
       - name: remove review done label
         uses: actions-ecosystem/action-remove-labels@v1
         if: ${{ steps.check-claimed.outputs.group1 == ' ' || steps.check-ready-for-review.outputs.group1 == ' ' || steps.check-review-done.outputs.group1 == ' ' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: review completed
+          labels: award
       
       # add label according to progress
       - name: add claimed label
@@ -61,16 +61,16 @@ jobs:
         if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == ' ' && steps.check-review-done.outputs.group1 == ' ' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: started working
+          labels: work
       - name: add waiting for review label
         uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == 'x' && steps.check-review-done.outputs.group1 == ' ' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: ready for review
+          labels: review
       - name: add review done label
         uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == 'x' && steps.check-review-done.outputs.group1 == 'x' }}
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
-          labels: review completed
+          labels: award
