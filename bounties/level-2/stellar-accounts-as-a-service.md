@@ -25,66 +25,145 @@ For this bounty the task is to create an API for a [custodial](https://www.gemin
 A simple database should be used to keep track of the registered users, their muxed account addresses and their balances.
 
 The api should have the following endpoints:
-```
-POST /register
-
-POST body: {
-  username: "<Username to register with">,
-  password: "<Password to register with>"
-}
-
-Endpoint info:
-Making a POST request to this endpoint allows users to register an account with the service.
-The request body should be in JSON format.
-```
-```
-POST /login
-
-POST body: {
-  username: "<Username to login with">,
-  password: "<Password to login with>"
-}
-
-Server response: {
-  apikey: "<Sometype of api key to use the service>"
-}
-
-Endpoint info:
-Making a POST request to this endpoint allows users to receive an apikey which can be used to use the service.
-The request body should be in Json format and the server response is a JSON object.
 
 ```
-```
-GET /info 
-
-Request headers : {
-  Authorization : "Bearer <APIKEY>" 
-}
-
-Server response: {
-  address: "<your muxed account address>",
-  balance: "<your account balance in xlm>"
-}
-
-Endpoint info:
-Making a request to this endpoint allows users to receive information about their account address and their XLM balance.
-The Server response is a JSON object.
-```
-```
-POST /pay
-
-Request Headers : {
-  Authorization: "Bearer <APIKEY>" 
-}
-
-POST body: {
-  destination: "<stellar address or muxed account address>",
-  amount: "<amount of XLM to send>"
-}
-
-Endpoint info:
-Making a request to this endpoint allows users to send XLM to stellar accounts.
-```
+openapi: 3.0.1
+info:
+  title: Stellar accounts as a service
+  description: 'This is the api specification for the Stellar accounts as a service bounty.'
+  version: 1.0.0
+tags:
+- name: auth
+  description: Authenticate yourself
+- name: info
+  description: Info
+- name: pay
+  description: Different ways to pay
+paths:
+  /register:
+    post:
+      tags:
+      - auth
+      summary: Create an account.
+      requestBody:
+        description: Credentials to register with.
+        content:
+          application/json:
+            schema:
+              properties:
+                username:
+                  type: string
+                password:
+                  type: string
+        required: true
+      responses:
+        400:
+          description: Invalid body.
+        500:
+          description: catch all response for other errors aside from the ones listed.
+          content:
+            application/json:
+              schema:
+                properties:
+                  error:
+                    type: string
+                    description: text explaining the error
+        
+  /login:
+    post:
+      tags:
+      - auth
+      summary: Get an auth token.
+      requestBody:
+        description: Credentials to login with.
+        content:
+         application/json:
+          schema:
+            properties:
+              username:
+                type: string
+              password:
+                type: string
+        required: true
+      responses:
+        200:
+          description: successful login
+          content:
+            application/json:
+              schema:
+                properties:
+                  apikey:
+                    type: string
+        400:
+          description: Invalid Body.
+  /info:
+    get:
+      tags:
+      - info
+      security:
+        - bearerAuth : []
+      summary: Get info about the user's address and XLM balance.
+      responses:
+        200:
+          description: sucessful operation
+          content:
+            application/json:
+              schema:
+                properties:
+                  address:
+                    type: string
+                    description: the user's address in XLm
+                  balance:
+                    type: string
+                    description: the user's balance in XLM
+        401:
+          description: invalid api key
+  /pay:
+    post:
+      tags:
+      - pay
+      security:
+       - bearerAuth: []
+      summary: Pay Stellar accounts with XLM.
+      requestBody:
+        required: true
+        description: Destination ddress and amount in XLM
+        content:
+          application/json:
+            schema:
+              properties:
+                destination:
+                  type: string
+                  description: address to send XLM to
+                amount:
+                  type: string
+                  description: amount of XLM to send.
+      responses:
+        200: 
+          description: successful payment
+        401:
+          description: invalid api key
+        404:
+          description: destination address does not exist
+        400:
+          description: Invalid body
+        500:
+          description: catch all response for other errors aside from the ones listed.
+          content:
+            application/json:
+              schema:
+                properties:
+                  error:
+                    type: string
+                    description: text explaining the error
+          
+  
+components:
+  securitySchemes:
+    bearerAuth:     
+      type: http
+      scheme: bearer
+```      
 
 
 ### What are the requirements for the bounty hunter?
