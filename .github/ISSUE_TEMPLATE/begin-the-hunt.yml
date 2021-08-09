@@ -14,7 +14,7 @@ body:
     id: progress
     attributes:
       label: Mark your progress
-      description: Select the blue emoji (**required**) to mark your issue as started
+      description: Select the blue emoji (**required**) to mark your bounty as started
       options:
         - label: 🔵&nbsp; Started working
           required: true
