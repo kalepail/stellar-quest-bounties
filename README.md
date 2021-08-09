@@ -43,24 +43,25 @@ Ready to start claiming bounties and earning rewards? Here's how.
 
 - **Step 2: Open a new issue**
   - Once you've chosen a bounty your next task is to "claim" it by opening a new issue. 
-  - Note the naming of your issue is important here. Misname and your bounty will not be considered for reward. Bounty issues can exist in 3 states, all demarcated by a prefixed color coded emoji, [🔵&nbsp;, 🟢&nbsp;, 🟣&nbsp;].
+  - Bounty issues can exist in 3 states, all demarcated by a color coded emoji, [🔵&nbsp;, 🟢&nbsp;, 🟣&nbsp;].
+    ![](./assets/mark-your-progress.png)
     - 🔵&nbsp; You have claimed and begun work on the bounty. You are actively making progress and should comment in the issue with any progress or details for reviewers.
     - 🟢&nbsp; You have finished the bounty and are ready to begin the review process. Reviewers will now begin to review your work and assess it's level of completeness. From here more work may be requested to finish the bounty or your work may be rejected if you're really off target.
-    - 🟣&nbsp; The review is complete and it's time for payout. Once the review is complete you're free to change the title status and await payment for a job well done!
+    - 🟣&nbsp; The review is complete and it's time to await payment for a job well done!
     
-    So to claim a bounty begin your issue title with a 🔵&nbsp; followed by the slug of the bounty. You are strongly encouraged to search for other similiar issues before beginning work to ensure you're not about to compete for a bounty which already has a max number of claimants. If that's the case though feel free to explore any open issues and offer assistance where it's needed. Team bounties often do better than solos.
+    You are strongly encouraged to search for other similar issues before beginning work to ensure you're not about to compete for a bounty which already has a max number of claimants. If that's the case though feel free to explore any open issues and offer assistance where it's needed. Team bounties often do better than solos.
 
 - **Step 3: Work on your bounty**
-  - The next step is obvious, do the work! Please ensure you stick closely to the bounty scope, guidelines and details as laid out in the scope doc. Do your work excellently and you stand a great chance of claiming the reward.
+  - The next step is obvious, do the work! Please ensure you stick closely to the bounty scope, guidelines and details as laid out in the spec doc. Do your work excellently and you stand a great chance of claiming the reward.
   - Be sure and post progress occasionally on your bounty issue in order to catch any potential issues as early as possible and to confirm you're still working and progressing on the bounty.
 
 - **Step 4: Have your bounty reviewed**
-  - Once you've completed the bounty sufficiently and believe yourself to be completed you should change the emoji prefix on the issue title from a 🔵&nbsp; to a 🟢&nbsp; to denote your bounty is ready for review.
+  - Once you've completed the bounty sufficiently and believe yourself to be completed you should change the status on the issue from a 🔵&nbsp; to a 🟢&nbsp; to denote your bounty is ready for review.
   - Feel free to continue to work on your bounty but try and be responsive once reviewers begin commenting on your bounty. Prioritize their comments as their goal is to see that the bounty terms are met.
 
 - **Step 5: Claim your reward**
   - Once the review has concluded your bounty will either be resolved as ineligible (unlikely but possible in the case of a weak attempt or ineligible duplicate bounty claims) or ready for payout. 
-  - If the latter you should adjust the title for your bounty with a 🟣&nbsp; prefix so we can ensure a timely reward payout.
+  - If the latter you should adjust the bounty to the 🟣&nbsp; status so we can ensure a timely reward payout.
   - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to your issue. From there it's a simple task of claiming your XLM bounty reward!
 
 ## Flow for Bounty Reviewers
