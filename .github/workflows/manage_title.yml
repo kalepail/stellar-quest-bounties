@@ -1,4 +1,4 @@
-name: Bounty hunter issue title management
+name: Bounty hunter issue label assignment management
 
 on:
   issues:
