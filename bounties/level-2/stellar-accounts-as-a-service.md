@@ -96,7 +96,7 @@ The hunter should be able to make simple Web APIs.
 - The hunter should provide a link to the repository containing the solution.
 - The API should be hosted online or posted to a website like [repl.it](https://replit.com/~) to make it easier for reviewers to review the solution.
 - The API **must** be served over https
-- the API **must not** use the _PUBLIC_ network
+- The API **must not** use the _PUBLIC_ network
 
 
 #### Review Criteria
