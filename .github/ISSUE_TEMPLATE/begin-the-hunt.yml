@@ -18,7 +18,6 @@ body:
       options:
         - label: 🔵&nbsp; Started working
           required: true
-          value: checked
         - label: 🟢&nbsp; Ready for review
         - label: 🟣&nbsp; Review completed
 
