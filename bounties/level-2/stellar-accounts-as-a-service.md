@@ -60,14 +60,14 @@ paths:
         400:
           description: Invalid body.
         500:
-          description: catch all response for other errors aside from the ones listed.
+          description: Catch all response for other errors aside from the ones listed.
           content:
             application/json:
               schema:
                 properties:
                   error:
                     type: string
-                    description: text explaining the error
+                    description: Text explaining the error.
         
   /login:
     post:
@@ -87,7 +87,7 @@ paths:
         required: true
       responses:
         200:
-          description: successful login
+          description: Successful login.
           content:
             application/json:
               schema:
@@ -105,19 +105,19 @@ paths:
       summary: Get info about the user's address and XLM balance.
       responses:
         200:
-          description: sucessful operation
+          description: Sucessful operation.
           content:
             application/json:
               schema:
                 properties:
                   address:
                     type: string
-                    description: the user's address in XLm
+                    description: The user's address.
                   balance:
                     type: string
-                    description: the user's balance in XLM
+                    description: The user's balance in XLM.
         401:
-          description: invalid api key
+          description: Invalid api key.
   /pay:
     post:
       tags:
@@ -134,28 +134,28 @@ paths:
               properties:
                 destination:
                   type: string
-                  description: address to send XLM to
+                  description: Address to send XLM to.
                 amount:
                   type: string
-                  description: amount of XLM to send.
+                  description: Amount of XLM to send.
       responses:
         200: 
-          description: successful payment
+          description: Successful payment.
         401:
-          description: invalid api key
+          description: Invalid api key.
         404:
-          description: destination address does not exist
+          description: Dstination address does not exist.
         400:
           description: Invalid body
         500:
-          description: catch all response for other errors aside from the ones listed.
+          description: Catch all response for other errors aside from the ones listed.
           content:
             application/json:
               schema:
                 properties:
                   error:
                     type: string
-                    description: text explaining the error
+                    description: Text explaining the error.
           
   
 components:
