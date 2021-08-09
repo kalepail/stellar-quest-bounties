@@ -4,8 +4,8 @@
 | :- | :- | :-
 | 50 XLM per example | N/A (success will be determined by PR acceptance) | Competitive
 
-📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-docs-code-snippet) for this bounty. \
-🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-docs-code-snippet.md%60) this bounty.
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Astellar-docs-code-snippet) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/stellar-docs-code-snippet.md) this bounty.
 
 ## Description
 
