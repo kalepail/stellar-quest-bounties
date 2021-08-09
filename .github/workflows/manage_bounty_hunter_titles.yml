@@ -2,7 +2,7 @@ name: Bounty hunter issue label assignment management
 
 on:
   issues:
-    types: [opened]
+    types: [opened, edited]
 
 jobs:
   extract_filename_from_path:
