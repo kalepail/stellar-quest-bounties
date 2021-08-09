@@ -17,7 +17,7 @@ body:
       description: Select the blue emoji (**required**) to mark your issue as started
       options:
         - label: 🔵&nbsp; Started working
-          required: true
+            required: true
         - label: 🟢&nbsp; Ready for review
         - label: 🟣&nbsp; Review completed
 
