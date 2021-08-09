@@ -13,7 +13,7 @@
 ### What is this task?
 
 Each Stellar account needs to hold 1 XLM to be valid. This can be costly when companies like exchanges want to build
-on Stellar.
+on the Stellar network.
 
 Currently, exchanges assign each of their users a unique id that should be put in the memo field of a transaction when depositing.
 This approach is error-prone. Users can forget to add the memo, or they can input the wrong memo.
