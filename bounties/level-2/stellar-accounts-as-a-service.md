@@ -111,8 +111,9 @@ paths:
               schema:
                 properties:
                   address:
+                    example: MA6FZSS32ISLP3TDDOVUP3OR3V7L4WHKH5EEDKY2HWEP23FEYU3NMAAAAAAAAAAAAF6VQ
                     type: string
-                    description: The user's address.
+                    description: The user's M-address.
                   balance:
                     type: string
                     description: The user's balance in XLM.
