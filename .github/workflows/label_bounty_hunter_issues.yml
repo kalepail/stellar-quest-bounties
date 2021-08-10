@@ -1,11 +1,11 @@
-name: Bounty hunter issue progress automation
+name: Bounty hunter issue label management
 
 on:
   issues: 
     types: [opened, edited]
 
 jobs:
-  issue_commented:
+  handle_progress:
     name: "Map issue progress to labels"
     if: ${{ !github.event.issue.pull_request }}
     runs-on: ubuntu-latest
@@ -71,6 +71,76 @@ jobs:
       - name: add review done label
         uses: actions-ecosystem/action-add-labels@v1
         if: ${{ steps.check-claimed.outputs.group1 == 'x' && steps.check-ready-for-review.outputs.group1 == 'x' && steps.check-review-done.outputs.group1 == 'x' }}
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: award
+
+  handle_bounty_labels:
+    name: "Generate the title from the filename"
+    needs: handle_progress
+    runs-on: ubuntu-latest
+    steps:
+      - name: Get the spec filename
+        uses: actions-ecosystem/action-regex-match@v2
+        id: match-spec-filename
+        with:
+          text: ${{ github.event.issue.body }}
+          regex: '^\s*https:\/\/github\.com\/.*\/bounties\/level-([\d])+\/(.*)\.md$'
+          flags: m
+      - name: Add label for bounty level
+        if: ${{ steps.match-spec-filename.outputs.group1 != '' }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            bounty
+            level ${{ steps.match-spec-filename.outputs.group1 }}
+            ${{ steps.match-spec-filename.outputs.group2 }}
+      - name: Remove bounty-labels when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: bounty
+      - name: Remove empty level label when spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 != '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: level
+      - name: Remove level-1-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: level 1
+      - name: Remove level-2-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: level 2
+      - name: Remove level-3-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: level 3
+      - name: Remove work-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: work
+      - name: Remove review-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: review
+      - name: Remove award-label when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           labels: award
