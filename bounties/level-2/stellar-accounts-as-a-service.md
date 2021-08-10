@@ -127,7 +127,7 @@ paths:
       summary: Pay Stellar accounts with XLM.
       requestBody:
         required: true
-        description: Destination ddress and amount in XLM
+        description: Destination address and amount in XLM
         content:
           application/json:
             schema:
