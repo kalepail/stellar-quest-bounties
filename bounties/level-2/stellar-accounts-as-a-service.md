@@ -62,7 +62,7 @@ paths:
         204:
           description: Succesfully created an account.
         409:
-          description: Account allready exists.
+          description: Account already exists.
         400:
           description: Invalid body.
         500:
