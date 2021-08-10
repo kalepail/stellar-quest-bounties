@@ -52,11 +52,17 @@ paths:
             schema:
               properties:
                 username:
+                  example: coolUsername
                   type: string
                 password:
+                  example: "!coolPassword42"
                   type: string
         required: true
       responses:
+        204:
+          description: Succesfully created an account.
+        409:
+          description: Account allready exists.
         400:
           description: Invalid body.
         500:
@@ -81,8 +87,10 @@ paths:
           schema:
             properties:
               username:
+                example: coolUsername
                 type: string
               password:
+                example: "!coolPassword42"
                 type: string
         required: true
       responses:
@@ -115,6 +123,7 @@ paths:
                     type: string
                     description: The user's M-address.
                   balance:
+                    example: "200.20"
                     type: string
                     description: The user's balance in XLM.
         401:
@@ -134,20 +143,24 @@ paths:
             schema:
               properties:
                 destination:
+                  example: GBLKRATZODTSJNU7XTB5HY5VAAN63CPRT77UYZT2VLCNXE7F3YHSW22M
                   type: string
                   description: Address to send XLM to.
                 amount:
+                  example: 200
                   type: string
                   description: Amount of XLM to send.
       responses:
-        200: 
+        204: 
           description: Successful payment.
         401:
           description: Invalid api key.
         404:
-          description: Dstination address does not exist.
+          description: Destination address does not exist.
         400:
-          description: Invalid body
+          description: Invalid body.
+        409:
+          description: Insufficient account balance.
         500:
           description: Catch all response for other errors aside from the ones listed.
           content:
