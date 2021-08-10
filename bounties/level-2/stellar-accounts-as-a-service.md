@@ -3,7 +3,7 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 2000 XLM | 800 XLM | Continuous
+| 2500 XLM | 1000 XLM | Continuous
 
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-accounts-as-a-service+) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-accounts-as-a-service.md%60) this bounty.
