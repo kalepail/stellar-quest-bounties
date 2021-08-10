@@ -2,7 +2,7 @@
 
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 3500 XLM | 1200 XLM | Capped (5)
+| 3000 XLM | 1000 XLM | Capped (3)
 
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Astellar-quest-badge-checker) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/stellar-quest-badge-checker.md) this bounty.
