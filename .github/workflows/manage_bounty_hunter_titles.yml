@@ -17,6 +17,7 @@ jobs:
           regex: '^\s*https:\/\/github\.com\/.*\/bounties\/level-([\d])+\/(.*)\.md$'
           flags: m
       - name: Add label for bounty level
+        if: ${{ steps.match-spec-filename.outputs.group1 != '' }}
         uses: actions-ecosystem/action-add-labels@v1
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
@@ -24,3 +25,17 @@ jobs:
             bounty
             level ${{ steps.match-spec-filename.outputs.group1 }}
             ${{ steps.match-spec-filename.outputs.group2 }}
+      - name: Remove bounty-labels when no spec is linked
+        if: ${{ steps.match-spec-filename.outputs.group1 == '' }}
+        uses: actions-ecosystem/action-remove-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          labels: |
+            bounty
+            level
+            level 1
+            level 2
+            level 3
+            work
+            review
+            award
