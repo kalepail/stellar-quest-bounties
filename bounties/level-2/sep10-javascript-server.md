@@ -6,8 +6,8 @@
 | 1000 XLM | 1000 XLM | Capped (3)
 
 [//]: # (make sure to replace the file-name placeholders `BOUNTY_FILE_NAME_NO_EXTENSION` and `BOUNTY_FILE_NAME_WITH_EXTENSION` in the next two lines with the actual bounty filename)
-📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3A%3Csep10-javascript-server%3E) for this bounty. \
-🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-%3C2%3E/%3Csep10-javascript-server.md%3E) this bounty.
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Asep10-javascript-server) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/sep10-javascript-server.md) this bounty.
 
 ## Description
 
@@ -55,12 +55,14 @@ responds to various API calls and endpoints.
     online (**must** be accessible through HTTPS).
 
 #### Review Criteria
+
   - Reviewers will attempt to authenticate with the Stellar network, using the
     submitted server implementation.
   - Reviewers will examine each of the API endpoints for accurate reponses.
   - Reviewers will inspect the JWT to ensure all relevant pieces are included.
 
 ## Links
+
 - [SEP-0010 Specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)
 - [Implementation in Go](https://github.com/stellar/go/tree/master/exp/services/webauth)
 - [Implementation for iOS and macOS](https://github.com/Soneso/stellar-ios-mac-sdk/blob/master/README.md#8-stellar-web-authentication)
