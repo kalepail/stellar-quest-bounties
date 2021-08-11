@@ -41,9 +41,9 @@ success and error).
 
 ### What are the requirements for the bounty hunter?
 
-The bounty hunter should be familiar with JavaScript and HTTP request methods.
-They ought to be able to create a server-side application that receives and
-responds to various API calls and endpoints.
+The bounty hunter should be familiar with JavaScript, HTTP request methods, and
+testing. They ought to be able to create a server-side application that receives
+and responds to various API calls and endpoints.
 
 ### What are the deliverables?
 
@@ -53,6 +53,8 @@ responds to various API calls and endpoints.
     reference implementation.
   - The bounty hunter will submit a link to the SEP-0010 implementation hosted
     online (**must** be accessible through HTTPS).
+  - The reference implementation will incorporate any necessary unit tests
+    throughout the codebase.
 
 #### Review Criteria
 
