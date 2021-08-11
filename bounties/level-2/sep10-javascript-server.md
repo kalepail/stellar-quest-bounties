@@ -1,6 +1,7 @@
 # JavaScript SEP-0010 Server Reference Implementation
 
 ## Award
+
 | Hunter | Reviewer | Type
 | :- | :- | :-
 | 1000 XLM | 1000 XLM | Capped (3)
@@ -60,8 +61,10 @@ and responds to various API calls and endpoints.
 
   - Reviewers will attempt to authenticate with the Stellar network, using the
     submitted server implementation.
-  - Reviewers will examine each of the API endpoints for accurate reponses.
+  - Reviewers will examine each of the API endpoints for accurate responses.
   - Reviewers will inspect the JWT to ensure all relevant pieces are included.
+  - Reviewers will pay special attention to testing the various conditional and
+    optional pieces of the authentication flow.
 
 ## Links
 
@@ -70,4 +73,3 @@ and responds to various API calls and endpoints.
 - [Implementation for iOS and macOS](https://github.com/Soneso/stellar-ios-mac-sdk/blob/master/README.md#8-stellar-web-authentication)
 - [JSON Web Tokens](https://jwt.io/)
 - [You could host your implementation at repl.it](https://replit.com/)
-- [Examples in other languages](#)
