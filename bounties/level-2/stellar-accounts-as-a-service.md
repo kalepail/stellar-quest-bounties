@@ -104,6 +104,8 @@ paths:
                     type: string
         400:
           description: Invalid Body.
+        401:
+          description: Invalid credentials. Either the user name or password is incorrect.
   /info:
     get:
       tags:
