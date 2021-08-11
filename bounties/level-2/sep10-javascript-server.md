@@ -4,7 +4,7 @@
 
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 1000 XLM | 1000 XLM | Capped (3)
+| 3000 XLM | 1500 XLM | Capped (3)
 
 [//]: # (make sure to replace the file-name placeholders `BOUNTY_FILE_NAME_NO_EXTENSION` and `BOUNTY_FILE_NAME_WITH_EXTENSION` in the next two lines with the actual bounty filename)
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Asep10-javascript-server) for this bounty. \
