@@ -51,6 +51,8 @@ They should feel comfortable interacting with servers through GET/POST requests.
 
 #### Review Criteria
 
+  - Reviewers will proceed through the authentication flow both with and without
+    a client home domain, ensuring a valid JWT is returned in both cases.
   - Reviewers will attempt to receive a valid JWT from the Stellar Test Anchor.
   - Reviewers will examine the client code to ensure a clean and clear codebase.
   - Reviewers will inspect the JWT to ensure all relevant pieces are included.
