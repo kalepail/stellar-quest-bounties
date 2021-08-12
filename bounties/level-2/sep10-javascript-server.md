@@ -20,11 +20,12 @@ smooth, predictable, and reliable manner. To that end, there are many
 **S**tellar **E**cosystem **P**roposals (**SEP**s) that serve to instruct the
 network about how certain actions should (or should not) be done.
 
-SEP-0010 is one such SEP which dictates how Stellar web authentication is to be
-done. The SEP includes instructions on how servers should be developed, what
-they are expected to send/receive, as well as how clients should interact with
-those servers to authenticate to the network for purposes of establishing a
-session for the user.
+The **[SEP-0010 specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)**
+is one such SEP which dictates how Stellar web authentication is to be done. The
+SEP includes instructions on how servers should be developed, what they are
+expected to send/receive, as well as how clients should interact with those
+servers to authenticate to the network for purposes of establishing a session
+for the user.
 
 In order for developers to make use of these SEPs, many of them contain
 "Reference Implementations," indicating what a *vanilla* example of the SEP
@@ -54,6 +55,9 @@ and responds to various API calls and endpoints.
     reference implementation.
   - The bounty hunter will submit a link to the SEP-0010 implementation hosted
     online (**must** be accessible through HTTPS).
+  - The hosted instance of the reference implementation will closely adhere to
+    the **[SEP-0010 specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)**
+    as described in the `stellar/stellar-protocol` repository.
   - The reference implementation will incorporate any necessary unit tests
     throughout the codebase.
 
