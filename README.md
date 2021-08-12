@@ -1,3 +1,5 @@
+![](./assets/stellar-quest-bounties.png)
+
 # Stellar Quest Bounties
 
 Stellar Quest Bounties is an extension of the traditional, series based [Stellar Quest](https://quest.stellar.org/) challenges allowing seasoned and passionate Stellar Questers to continue their journey of education and earning during the "lean times" between Stellar Quest series.
