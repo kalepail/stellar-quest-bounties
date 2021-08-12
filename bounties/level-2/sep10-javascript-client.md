@@ -53,6 +53,14 @@ They should feel comfortable interacting with servers through GET/POST requests.
   - The submitted SEP-0010 client will adhere closely to the
     **[SEP-0010 specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)**
     as described in the `stellar/stellar-protocol` repository.
+  - The bounty hunter will submit a link to their SEP-0010 client implementation
+    hosted online (**must** be available through HTTPS).
+  - The hosted client will include a user interface that will perform these
+    tasks:
+    1. Generates a JWT by successfully authenticating with the Test Anchor,
+    1. Retrieves and displays that JWT to the user (including information about
+       all the pieces of the JWT), and
+    1. Performs some testing of the JWT for validity.
 
 #### Review Criteria
 
