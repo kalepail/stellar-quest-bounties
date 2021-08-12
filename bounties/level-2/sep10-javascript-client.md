@@ -1,6 +1,7 @@
 # JavaScript SEP-0010 Client Reference Implementation
 
 ## Award
+
 | Hunter | Reviewer | Type
 | :- | :- | :-
 | 1200 XLM | 800 XLM | Capped (3)
@@ -19,11 +20,12 @@ smooth, predictable, and reliable manner. To that end, there are many
 **S**tellar **E**cosystem **P**roposals (**SEP**s) that serve to instruct the
 network about how certain actions should (or should not) be done.
 
-SEP-0010 is one such SEP which dictates how Stellar web authentication is to be
-done. The SEP includes instructions on how servers should be developed, what
-they are expected to send/receive, as well as how clients should interact with
-those servers to authenticate to the network for purposes of establishing a
-session for the user.
+The **[SEP-0010 specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)**
+is one such SEP which dictates how Stellar web authentication is to be done. The
+SEP includes instructions on how servers should be developed, what they are
+expected to send/receive, as well as how clients should interact with those
+servers to authenticate to the network for purposes of establishing a session
+for the user.
 
 In order for developers to make use of these SEPs, many of them contain
 "Reference Implementations," indicating what a *vanilla* example of the SEP
@@ -47,7 +49,10 @@ They should feel comfortable interacting with servers through GET/POST requests.
 #### Submission Procedure
 
   - The bounty hunter will submit a GitHub repository containing their SEP-0010
-    client.
+    client, coded in either JavaScript or TypeScript.
+  - The submitted SEP-0010 client will adhere closely to the
+    **[SEP-0010 specification](https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0010.md)**
+    as described in the `stellar/stellar-protocol` repository.
 
 #### Review Criteria
 
