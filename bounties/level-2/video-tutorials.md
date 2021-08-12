@@ -28,7 +28,8 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
    - A tutorial blog with more than 10,000 pageviews per month
 
 ### What are the deliverables?
-
+- the video itself (more specifically a link to the video)
+- if there was a coding example a link to the codebase - preferrably a branch or dedicated repo
 
 #### Bounty Description
   - The hunter should create a minimum 2-min video
