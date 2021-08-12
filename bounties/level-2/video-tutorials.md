@@ -3,7 +3,7 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 750 XLM (+750 XLM for established creators) | 1000 XLM | Continuous 
+| 1000 XLM (+500 XLM for established creators) | 500 XLM | Continuous 
 
 [//]: # (make sure to replace the file-name placeholders `<BOUNTY_FILE_NAME_NO_EXTENSION>`, `<BOUNTY_FILE_NAME_WITH_EXTENSION> and `<LEVEL>` in the next two lines with the respective values)
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Avideo-tutorials) for this bounty. \
@@ -16,6 +16,7 @@
 Some developers love reading tutorials, some prefer watching videos to easily follow what to expect. Your task is to help increase recognition of Stellar ecosystem by producing a video walkthrough with (but not limited to) below topics:
 
  - Explain like I'm Five: everything about Stellar ecosystem
+ - Established ecosystem project walkthroughs. Apps like StellarX, DSTOQ, SatoshiPay, Coinqvest, etc.
  - Implementation of Stellar Ecosystem Proposals (aka SEPs) in multiple coding languages
  - Simple functional projects to demonstrate Stellar available operations
 
@@ -28,8 +29,8 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
    - A tutorial blog with more than 10,000 pageviews per month
 
 ### What are the deliverables?
-- the video itself (more specifically a link to the video)
-- if there was a coding example a link to the codebase - preferrably a branch or dedicated repo
+- The video itself, uploaded to Youtube, Vimeo, or any popular video hosting sites
+- (Optionally) A link to the codebase for coding walkthroughs - preferably a branch or dedicated repo
 
 #### Bounty Description
   - The hunter should create a minimum 2-min video
