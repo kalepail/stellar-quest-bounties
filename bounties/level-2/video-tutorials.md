@@ -30,7 +30,7 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
 
 ### What are the deliverables?
 - The video itself, uploaded to Youtube, Vimeo, or any popular video hosting sites
-- (Optionally) A link to the codebase for coding walkthroughs - preferably a branch or dedicated repo
+- A link to the codebase for coding walkthroughs - preferably a branch or dedicated repo
 
 #### Bounty Description
   - The hunter should create a minimum 2-min video
