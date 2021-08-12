@@ -48,7 +48,13 @@ Ready to start claiming bounties and earning rewards? Here's how.
 - **Step 2: Open a new issue**
   - Once you've chosen a bounty your next task is to "claim" it by opening a new issue via the [Begin The Hunt](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml) issue template. 
   - Bounty issues can exist in 3 states, all demarcated by a color coded emoji, [🔵&nbsp;, 🟢&nbsp;, 🟣&nbsp;].
-    ![](./assets/mark-your-progress.png)
+    #### Mark your progress
+    - [x] 🔵&nbsp; Started working
+    - [ ] 🟢&nbsp; Ready for review
+    - [ ] 🟣&nbsp; Review completed
+
+    <br>
+    
     - 🔵&nbsp; You have claimed and begun work on the bounty. You are actively making progress and should comment in the issue with any progress or details for reviewers.
     - 🟢&nbsp; You have finished the bounty and are ready to begin the review process. Reviewers will now begin to review your work and assess it's level of completeness. From here more work may be requested to finish the bounty or your work may be rejected if you're really off target.
     - 🟣&nbsp; The review is complete and it's time to await payment for a job well done!
