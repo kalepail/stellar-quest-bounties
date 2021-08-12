@@ -24,8 +24,8 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
 ### What are the requirements for the bounty hunter?
 
  - The bounty hunter should have good knowledge of Stellar and can create productive walkthrough videos. They should be familiar with Stellar supported SDKs.
- - `(Optional)` The bounty hunter could double the reward if they have a well-established viewer base such as:
-   - A Youtube channel with more than 1000 subscribers
+ - `(Optional)` The bounty hunter can boost their reward if they have a well-established viewer base such as:
+   - A YouTube, Vimeo, etc. channel with more than 1,000 subscribers
    - A tutorial blog with more than 10,000 pageviews per month
 
 ### What are the deliverables?
