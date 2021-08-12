@@ -52,7 +52,7 @@ and responds to various API calls and endpoints.
 #### Submission Procedure
 
   - The bounty hunter will submit a link to a GitHub repository containing the
-    reference implementation.
+    reference implementation, coded in either vanilla JavaScript or TypeScript.
   - The bounty hunter will submit a link to the SEP-0010 implementation hosted
     online (**must** be accessible through HTTPS).
   - The hosted instance of the reference implementation will closely adhere to
