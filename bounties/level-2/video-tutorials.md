@@ -42,11 +42,12 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
     - Should avoid less secure and performant source code, unless stated during the walkthrough
   
 #### Submission Procedure
-  - Create a work issue 
-  - Add a link to your video in the work issue
-  - Upload the final video on Youtube and create a PR to upload it to assets folder
+  - Create a [work issue](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/video-tutorials.md) for this bounty.
+  - Upload the ready-for-review video on Google Drive and share the link inside the work issue
+    - *Note:* If you plan to broadcast to your audience, please wait until a final version is reviewed
+  - Upload the final video publicly on Youtube, Vimeo or any other popular video sites and update the link in the work issue
 
-## Links*
+## Links
 - [Intro to Stellar](https://stellar.org/learn/intro-to-stellar)
 - [Stellar Developers](https://stellar.org/developers)
 
