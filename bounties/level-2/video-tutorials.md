@@ -43,8 +43,6 @@ Some developers love reading tutorials, some prefer watching videos to easily fo
   - Create a work issue 
   - Add a link to your video in the work issue
   - Upload the final video on Youtube and create a PR to upload it to assets folder
-  - Any issues they need to be aware of?
-  - Any third parties they need to communicate with?
 
 ## Links*
 - [Intro to Stellar](https://stellar.org/learn/intro-to-stellar)
