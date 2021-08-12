@@ -46,7 +46,7 @@ They should feel comfortable interacting with servers through GET/POST requests.
 
 #### Submission Procedure
 
-  - The bounty hunter will submit a GitHub repository containing their SEP-0100
+  - The bounty hunter will submit a GitHub repository containing their SEP-0010
     client.
 
 #### Review Criteria
