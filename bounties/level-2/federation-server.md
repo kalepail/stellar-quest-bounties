@@ -91,6 +91,8 @@ Implement the deliverables described above and add to the bounty-issue
 - a link to the running application
 - the name of the domain that the federation-server is configured to (e.g. quest.stellar.org or <your-user-name>.github.io)
 
+Choose an open source license for the project place a file `LICENSE.md` in the repo showing the chosen license.
+
 Add the URL of the deployed federation-server to the github-repo's 'about' section.
 
 
