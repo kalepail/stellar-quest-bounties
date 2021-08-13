@@ -5,8 +5,8 @@
 | :- | :- | :-
 | 2500 XLM | 1000 XLM | Continuous
 
-📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+stellar-accounts-as-a-service+) for this bounty. \
-🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&title=%F0%9F%94%B5+%60stellar-accounts-as-a-service.md%60) this bounty.
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Astellar-accounts-as-a-service+) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/stellar-accounts-as-a-service.md) this bounty.
 
 ## Description
 
