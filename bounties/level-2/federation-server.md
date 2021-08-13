@@ -77,7 +77,7 @@ The reviewer may chose the tooling of their choice (e.g. `curl` or the [js SDK](
 and verify the correct response according to the [federation] server documentation. The reviewer may ask a second person to sign up with their
 account to cross-verify.
 
-The reviewer should remove/alter their account-id and verify that the reponse changes.
+The reviewer should remove/alter their account-id and verify that the response changes.
 
 The reviewer should delete their account and verify that login does not work anymore.
 
