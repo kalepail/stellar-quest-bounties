@@ -48,10 +48,10 @@ Implement a [federation]-server that allows to sign-up (register) with an existi
   - provides a simple but appealing UI where anyone can sign-up and login through a social-media account-provider of your choice
     - allow a logged-in user to add, change or remove their stellar account-id
     - presents the user with their full federation-address consisting of their username and the domain (e.g. `@tyvdh*quest.stellar.org`)
-    - allow logged-id user to delete their account
+    - allow logged-in user to delete their account
   - serves the `/federation` endpoint that 
     - supports at least the `name` query-type (see [federation protocol])
-- Documentation that 
+- Documentation alongside the code-repository (e.g. README.md file or github pages) that
   - lays out the installation procedure
   - lays out the deployment process
   - details what query-types are supported by the `/federation` endpoint 
@@ -59,23 +59,28 @@ Implement a [federation]-server that allows to sign-up (register) with an existi
 
 #### Bounty Description
 
-To successfully hunt this bounty implement and publish a federation-server that allows your friends so sign-up with
+To successfully hunt this bounty implement and publish a federation-server that allows your friends to sign-up with
 their social-media account so you can start sending XML (or else) to your easy-to remember federation-addresses.
 
 In order for your federation-server to be testable you need to also host a `/.well-known/stellar.toml` file
-on the domain you want to federate. You may use github pages to serve to `toml`-file. Just make sure to configure
+on the domain you want to federate. You may use github pages to serve the `toml`-file. Just make sure to configure
 the federation server to match the github-pages domain.
 
 
 #### Review Criteria
 
 The reviewer needs to sign-up with the federation server and configure/add their account-id.  
+
 The reviewer needs to query the server's `/federation` endpoint with all the query-types described in the documentation.  
+
 The reviewer may chose the tooling of their choice (e.g. `curl` or the [js SDK](https://stellar.github.io/js-stellar-sdk/FederationServer.html))
 and verify the correct response according to the [federation] server documentation. The reviewer may ask a second person to sign up with their
 account to cross-verify.
+
 The reviewer should remove/alter their account-id and verify that the reponse changes.
+
 The reviewer should delete their account and verify that login does not work anymore.
+
 Depending on the ID-provider the reviewer may on the ID-provider's side revoke access and check that
 login actually stops working on the federation-server UI.
 
