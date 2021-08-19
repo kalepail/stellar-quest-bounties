@@ -29,8 +29,6 @@ The Account Viewer is built with React and TypeScript. Along with that keep in m
 #### Submission Procedure
 - The hunter submits a pull request to the `account-viewer-2` repository.
 - The bounty will only be considered complete, after the Pull Request has been merged into the main repository.
-- Any issues they need to be aware of?
-- Any third parties they need to communicate with?
 
 ## Links
 - [Repository](https://github.com/stellar/account-viewer-v2)
