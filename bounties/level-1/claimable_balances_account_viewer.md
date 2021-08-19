@@ -27,7 +27,7 @@ The Account Viewer is built with React and TypeScript. Along with that keep in m
 - The hunter should provide a link to the Pull Request containing the solution.
 
 #### Submission Procedure
-- The hunter submits a pull request to account-viewer-2
+- The hunter submits a pull request to the `account-viewer-2` repository.
 - When the Pull Request is merged only then is the bounty completed.
 - Any issues they need to be aware of?
 - Any third parties they need to communicate with?
