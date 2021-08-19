@@ -13,7 +13,7 @@ Your goal is to create a new section of the account viewer designated to Claimab
 This bounty can be separated into 2 Main objectives.
 
 1) List Claimed Balances in the Payment History or a separate new tab
-2) New section that will list all pending claimable balances and allow for their claimant
+2) New section that will list all pending claimable balances and allow for claiming them.
 
 ### What are the requirements for the bounty hunter?
 For this bounty to be completed a Pull Request on the following repo is required: [GitHub - stellar/account-viewer-v2: A simple tool to view an account on the Stellar network and make transactions from it.](https://github.com/stellar/account-viewer-v2) with your changes.
