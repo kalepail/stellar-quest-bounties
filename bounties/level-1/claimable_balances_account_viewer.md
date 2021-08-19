@@ -2,7 +2,7 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 1000 XLM | 500 XLM | Competitive | 
+| 1500 XLM | 800 XLM | Competitive | 
 
 ## Description
 The [Stellar Account Viewer](https://accountviewer.stellar.org/) is a great tool that allows you to see how many XLM you own, the transactions you received and the option to send payments. Best of all, it's Open Source and anyone can send changes. You can find it on [GitHub](https://github.com/stellar/account-viewer-v2)
