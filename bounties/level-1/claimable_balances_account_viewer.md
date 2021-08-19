@@ -1,4 +1,3 @@
-
 # Pending Claimable Balances in the Stellar Account Viewer
 ## Award
 | Hunter | Reviewer | Type
