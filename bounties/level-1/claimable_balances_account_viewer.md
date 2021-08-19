@@ -18,7 +18,7 @@ This bounty can be separated into 2 Main objectives.
 ### What are the requirements for the bounty hunter?
 For this bounty to be completed a Pull Request on the following repo is required: [GitHub - stellar/account-viewer-v2: A simple tool to view an account on the Stellar network and make transactions from it.](https://github.com/stellar/account-viewer-v2) with your changes.
 
-The Account Viewer is built with React and Typescript. Along with that keep in mind of the existing design guidelines and make sure it's understandable to the user.
+The Account Viewer is built with React and TypeScript. Along with that keep in mind the existing design guidelines and make sure it's understandable to the user.
 
 
 ### What are the deliverables?
