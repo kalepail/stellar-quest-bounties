@@ -45,9 +45,9 @@ Implement a [federation]-server that allows to sign-up (register) with an existi
 
 - A server application that  
   - allows configuring the domain, that is appended to the federation-addresses
-  - provides a simple but appealing UI where anyone can sign-up and login through a social-media account-provider of your choice
-    - allow a logged-in user to add, change or remove their stellar account-id
-    - presents the user with their full federation-address consisting of their username and the domain (e.g. `@tyvdh*quest.stellar.org`)
+  - provides a simple but appealing UI where anyone can sign-up and login with their stellar account-id
+    - allow a logged-in user to add, change or remove a federation-address related to their stellar account-id
+    - presents the user with their full federation-address consisting of their username and the domain (e.g. `tyvdh*quest.stellar.org`)
     - allow logged-in user to delete their account
   - serves the `/federation` endpoint that 
     - supports at least the `name` query-type (see [federation protocol])
@@ -59,11 +59,12 @@ Implement a [federation]-server that allows to sign-up (register) with an existi
 
 #### Bounty Description
 
-To successfully hunt this bounty implement and publish a federation-server that allows your friends to sign-up with
-their social-media account so you can start sending XML (or else) to your easy-to remember federation-addresses.
+To successfully hunt this bounty implement and publish a federation-server that allows your friends to register
+a federation-address on your server through a UI, so you can start sending XML (or else) to their easy-to remember
+federation-addresses.
 
 In order for your federation-server to be testable you need to also host a `/.well-known/stellar.toml` file
-on the domain you want to federate. You may use github pages to serve the `toml`-file. Just make sure to configure
+on the domain you want to federate. You may use [github pages] to serve the `toml`-file. Just make sure to configure
 the federation server to match the github-pages domain.
 
 
@@ -77,23 +78,21 @@ The reviewer may chose the tooling of their choice (e.g. `curl` or the [js SDK](
 and verify the correct response according to the [federation] server documentation. The reviewer may ask a second person to sign up with their
 account to cross-verify.
 
-The reviewer should remove/alter their account-id and verify that the response changes.
+The reviewer should remove/alter their chosen address and verify that the response changes.
 
 The reviewer should delete their account and verify that login does not work anymore.
 
-Depending on the ID-provider the reviewer may on the ID-provider's side revoke access and check that
-login actually stops working on the federation-server UI.
 
 #### Submission Procedure
 
-Implement the deliverables described above and add to the bounty-issue
-- a link to the repository (preferably a PR from implementation branch into base branch – even in your repo)
-- a link to the running application
-- the name of the domain that the federation-server is configured to (e.g. quest.stellar.org or <your-user-name>.github.io)
+- Implement the deliverables described above and add to the bounty-issue
+  - a link to the repository (preferably a PR from implementation branch into base branch – even in your repo)
+  - a link to the running application
+  - the name of the domain that the federation-server is configured to (e.g. quest.stellar.org or <your-user-name>.github.io)
 
-Choose an open source license for the project place a file `LICENSE.md` in the repo showing the chosen license.
+- Choose an open source license for the project place a file `LICENSE.md` in the repo showing the chosen license.
 
-Add the URL of the deployed federation-server to the github-repo's 'about' section.
+- Add the URL of the deployed federation-server to the github-repo's 'about' section.
 
 
 ## Links
@@ -112,5 +111,6 @@ that would perfectly fit the use-case.
 
 
 [federation]: https://developers.stellar.org/docs/glossary/federation/
+[github pages]: https://stackoverflow.com/a/52645091/834309
 [reference implementation]: https://github.com/stellar/go/tree/master/services/federation
 [federation protocol]: https://github.com/stellar/stellar-protocol/blob/master/ecosystem/sep-0002.md
