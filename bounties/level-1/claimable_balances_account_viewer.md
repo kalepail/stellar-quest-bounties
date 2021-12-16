@@ -35,3 +35,4 @@ The Account Viewer is built with React and TypeScript. Along with that keep in m
 - [Repository](https://github.com/stellar/account-viewer-v2)
 - [Account Viewer](https://accountviewer.stellar.org/)
 - [Claimable Balances documentation](https://developers.stellar.org/docs/glossary/claimable-balance/)
+- [Claimable Balance predicate resolver](https://www.npmjs.com/package/stellar-resolve-claimant-predicates)
