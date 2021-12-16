@@ -2,7 +2,7 @@
 
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 200 XLM per submission | N/A (success will be determined by PR acceptance) | Continuous
+| 500 XLM per submission | 200 XLM | Continuous
 
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Acreate-bounties) for this bounty. \
 🔵&nbsp; Suggest [a new](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md) bounty.
