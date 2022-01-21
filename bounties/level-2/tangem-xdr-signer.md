@@ -2,7 +2,7 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 2000 XLM | 1000 XLM | Competitive | 
+| 3500 XLM | 1500 XLM | Competitive | 
 
 ## Description
 Tangem is a company that produces hardware wallets and one of the supported cryptocurrencies is Stellar. You can access your Stellar Account using a compatible NFC phone and send payments by holding the card near your phone. 
