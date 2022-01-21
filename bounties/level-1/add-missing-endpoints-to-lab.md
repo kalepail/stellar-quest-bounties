@@ -3,9 +3,8 @@
 ## Award
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| {x} XLM | N/A (success will be determined by PR acceptance) | Competitive (as long as there are missing endpoints)
+| 300 XLM | N/A (success will be determined by PR acceptance) | Competitive (as long as there are missing endpoints)
 
-[//]: # (make sure to replace the file-name placeholders `<BOUNTY_FILE_NAME_NO_EXTENSION>`, `<BOUNTY_FILE_NAME_WITH_EXTENSION> and `<LEVEL>` in the next two lines with the respective values)
 📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Aadd-missing-endpoints-to-lab) for this bounty. \
 🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/add-missing-endpoints-to-lab.md) this bounty.
 
