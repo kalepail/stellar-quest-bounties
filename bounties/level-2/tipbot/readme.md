@@ -1,4 +1,3 @@
-
 # TipBot / Bear Bot
 | Hunter | Reviewer | Type
 | :- | :- | :-
