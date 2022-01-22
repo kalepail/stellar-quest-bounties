@@ -1,7 +1,7 @@
 # TipBot / Bear Bot
 | Hunter | Reviewer | Type
 | :- | :- | :-
-| 3500 XLM | 1500 XLM | Capped (1) | 
+| 1500 XLM | 500 XLM | Capped (1) | 
 
 ## Description
 Current Stellar Quest users can't tip other people in case they help out someone. Users should have the option to do so. By using a Discord bot and by reacting to messages with different bear emojis they can sent a tip instantly
