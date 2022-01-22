@@ -11,8 +11,11 @@ Current Stellar Quest users can't tip other people in case they help out someone
 Users will be able to tip the message author of a sent message on Discord by reacting with 4 kinds of bears. This is the proposed valuation for different kinds of bear emojis and the amount of worth the user can tip.
 
 🐻‍❄️ - 100 BEARS
+
 🐻 - 10 BEARS
+
 🐼 - 5 BEARS
+
 🧸 - 1 BEAR
 
 Using Slash commands users can tip a custom amount of bears. The command for tipping a custom amount of bears is  `/tip 50`.
