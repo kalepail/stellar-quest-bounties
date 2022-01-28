@@ -4,13 +4,13 @@
 
 Stellar Quest Bounties is an extension of the traditional, series based [Stellar Quest](https://quest.stellar.org/) challenges allowing seasoned and passionate Stellar Questers to continue their journey of education and earning during the "lean times" between Stellar Quest series.
 
-Additional to this Stellar Quest Bounties provides an avenue for directing smaller amounts of XLM towards more granular, achievable, back-burner tasks as determined by SDF, Stellar partners and you! the Stellar Community. 
+Additional to this Stellar Quest Bounties provides an avenue for directing smaller amounts of XLM towards more granular, achievable, back-burner tasks as determined by SDF, Stellar partners and you! the Stellar Community.
 
 ## Stellar Quest Bounty Structure
 
-Stellar Quest Bounties are broken up into two distinct groups, well really three but primarily two. Hunters and Reviewers. The names are pretty self explanatory with Hunters being those doing the work of achieving the spec of the bounty and Reviewers auditing that work to ensure it meets the standard and actually accomplishes the task sufficiently. The unique bit here is that both Hunters and Reviewers get paid in this system, not just those doing the bounty work. 
+Stellar Quest Bounties are broken up into two distinct groups, well really three but primarily two. Hunters and Reviewers. The names are pretty self explanatory with Hunters being those doing the work of achieving the spec of the bounty and Reviewers auditing that work to ensure it meets the standard and actually accomplishes the task sufficiently. The unique bit here is that both Hunters and Reviewers get paid in this system, not just those doing the bounty work.
 
-The third group at work here are those writing and funding the bounties, but that most often will be SDF and/or other Stellar based business and enterprises. However you too can write bounties! (Hint there's even a continuous [bounty for writing bounties](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md)!). This third group isn't heavily involved in the bounty process outside of an initial PR into the `./bounties` directory so we won't spend too much time on them. 
+The third group at work here are those writing and funding the bounties, but that most often will be SDF and/or other Stellar based business and enterprises. However you too can write bounties! (Hint there's even a continuous [bounty for writing bounties](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md)!). This third group isn't heavily involved in the bounty process outside of an initial PR into the `./bounties` directory so we won't spend too much time on them.
 
 For more info about writing a bounty see our [Bounty Template](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/README.md) our ["Submit a Bounty"](https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-1/create-bounties.md) bounty and the [Bounty Ideas](https://github.com/tyvdh/stellar-quest-bounties/discussions/categories/bounty-ideas) Discussions category.
 
@@ -41,12 +41,12 @@ The last bounty type is the competitive bounty which is rewarded in a graduated 
 Ready to start claiming bounties and earning rewards? Here's how.
 
 - **Step 1: Pick a bounty**
-  - Look through [all of the available bounties](https://github.com/tyvdh/stellar-quest-bounties/tree/main/bounties) in the `/bounties` directory in this repo. They are divided into 3 difficulty levels so chose one which feels appropriate to your skill, level of involvement and the earning potential that excites you. 
+  - Look through [all of the available bounties](https://github.com/tyvdh/stellar-quest-bounties/tree/main/bounties) in the `/bounties` directory in this repo. They are divided into 3 difficulty levels so chose one which feels appropriate to your skill, level of involvement and the earning potential that excites you.
   - Be sure and read all the bounty instructions and details carefully though, as not all bounties are created and structured equally. Some are always available to claim, others are capped or may only accept 1 entry as viable for payout, so pick accordingly.
   - You can [look through the issues](https://github.com/tyvdh/stellar-quest-bounties/issues) tab to discover which bounties are being worked on by whom. Who knows, maybe you could team up with someone and solve a bounty together!
 
 - **Step 2: Open a new issue**
-  - Once you've chosen a bounty your next task is to "claim" it by opening a new issue via the [Begin The Hunt](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml) issue template. 
+  - Once you've chosen a bounty your next task is to "claim" it by opening a new issue via the [Begin The Hunt](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml) issue template.
   - Bounty issues can exist in 3 states, all demarcated by a color coded emoji, [🔵&nbsp;, 🟢&nbsp;, 🟣&nbsp;].
     ### Mark your progress
     - [x] 🔵&nbsp; Started working
@@ -70,8 +70,9 @@ Ready to start claiming bounties and earning rewards? Here's how.
   - Feel free to continue to work on your bounty but try and be responsive once reviewers begin commenting on your bounty. Prioritize their comments as their goal is to see that the bounty terms are met.
 
 - **Step 5: Claim your reward**
-  - Once the review has concluded your bounty will either be resolved as ineligible (unlikely but possible in the case of a weak attempt or ineligible duplicate bounty claims) or ready for payout. 
+  - Once the review has concluded your bounty will either be resolved as ineligible (unlikely but possible in the case of a weak attempt or ineligible duplicate bounty claims) or ready for payout.
   - If the latter you should adjust the bounty to the 🟣&nbsp; status so we can ensure a timely reward payout.
+  - In order to process payouts for our bounty hunters, it's necessary for the <abbr title="Stellar Development Foundation">SDF</abbr> to collect certain information from you. Make sure you've [added your public address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml). You'll also need to submit KYC and tax information on the [Stellar Quest website](https://quest.stellar.org). These steps can be taken at any time, even before you've begun the bounty.
   - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to your issue. From there it's a simple task of claiming your XLM bounty reward!
 
 ## Flow for Bounty Reviewers
@@ -79,7 +80,7 @@ Ready to start claiming bounties and earning rewards? Here's how.
 Ready to review bounties and get paid for your expertise? Here's how.
 
 - **Step 1: Choose a bounty**
-  - Look through [all of the available bounties](https://github.com/tyvdh/stellar-quest-bounties/issues) in the `Issues` tab in this repo. They are divided into 3 difficulty levels so chose ones which feel appropriate to your skill, level of involvement and the earning potential that excites you. 
+  - Look through [all of the available bounties](https://github.com/tyvdh/stellar-quest-bounties/issues) in the `Issues` tab in this repo. They are divided into 3 difficulty levels so chose ones which feel appropriate to your skill, level of involvement and the earning potential that excites you.
   - Be sure and read all bounty instructions and details carefully as it's your job to ensure bounties sufficiently meet the criteria for the reward payout. You can only do that best when you are familiar with the bounty goals and objectives yourself.
   
 - **Step 2: Review the bounty**
@@ -88,4 +89,5 @@ Ready to review bounties and get paid for your expertise? Here's how.
 
 - **Step 3: Claim your reward**
   - Once you've marked a bounty as complete your job is done until the payout is made to both the hunter and you.
+  - In order to process payouts for our bounty reviewers, it's necessary for the <abbr title="Stellar Development Foundation">SDF</abbr> to collect certain information from you. Make sure you've [added your public address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml). You'll also need to submit KYC and tax information on the [Stellar Quest website](https://quest.stellar.org). These steps can be taken at any time, even before you've begun reviewing any bounties.
   - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to the bounty issue which you reviewed. From there it's a simple task of claiming your XLM bounty reward!
