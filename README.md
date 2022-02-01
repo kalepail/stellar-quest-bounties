@@ -73,11 +73,7 @@ Ready to start claiming bounties and earning rewards? Here's how.
   - Once the review has concluded your bounty will either be resolved as ineligible (unlikely but possible in the case of a weak attempt or ineligible duplicate bounty claims) or ready for payout.
   - If the latter you should adjust the bounty to the 🟣&nbsp; status so we can ensure a timely reward payout.
   - In order to process payouts for our bounty hunters, it's necessary for the <abbr title="Stellar Development Foundation">SDF</abbr> to collect certain information from you. Make sure you've [added your public address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml). You'll also need to submit KYC and tax information on the [Stellar Quest website](https://quest.stellar.org). These steps can be taken at any time, even before you've begun the bounty.
-<<<<<<< HEAD
   - Payments will be made directly to your Stellar public address and a comment with the corresponding transaction hash will be posted to your issue. If you haven't already, be sure to [add your address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml) to facilitate the fastest possible payouts.
-=======
-  - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to your issue. From there it's a simple task of claiming your XLM bounty reward!
->>>>>>> dfcd87981c2386b43a48270bb56d491808b54130
 
 ## Flow for Bounty Reviewers
 
@@ -94,8 +90,4 @@ Ready to review bounties and get paid for your expertise? Here's how.
 - **Step 3: Claim your reward**
   - Once you've marked a bounty as complete your job is done until the payout is made to both the hunter and you.
   - In order to process payouts for our bounty reviewers, it's necessary for the <abbr title="Stellar Development Foundation">SDF</abbr> to collect certain information from you. Make sure you've [added your public address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml). You'll also need to submit KYC and tax information on the [Stellar Quest website](https://quest.stellar.org). These steps can be taken at any time, even before you've begun reviewing any bounties.
-<<<<<<< HEAD
   - Payments will be made directly to your Stellar public address and a comment with the corresponding transaction hash will be posted to to the bounty issue which you reviewed. If you haven't already, be sure to [add your address here](https://github.com/tyvdh/stellar-quest-bounties/blob/main/ADDRESSES.yml) to facilitate the fastest possible payouts.
-=======
-  - Payments will be made in the form of claimable balances and a comment with the transaction hash containing that claimable balance will be posted to the bounty issue which you reviewed. From there it's a simple task of claiming your XLM bounty reward!
->>>>>>> dfcd87981c2386b43a48270bb56d491808b54130
