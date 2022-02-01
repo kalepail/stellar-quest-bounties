@@ -24,6 +24,11 @@ Can review bounties in exchange for rewards.
 
 Reviewers claim reviewable tasks and complete a review on the task assigning it a state of pass, fail or retry. Upon review completion the reviewer is awarded their share of the award amount as detailed by the bounty spec.
 
+#### Eligibility for Reviewers
+In order to provide code reviews of the highest possible quality, anybody who wants to review bounties must be an established member within our [Discord server](https://discord.gg/jDjSQvTHTC).
+
+We are also capping the number of reviewers per bounty at 2 (two). You can "claim" your spot as a reviewer with a comment on the relevant issue, but wait to do so until you've actually begun the review.
+
 ## Bounty Types
 There are three types of bounties in the Stellar Quest Bounties universe. Each with their own merits, joys and sorrows. Choose wisely.
 
