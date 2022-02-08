@@ -9,6 +9,9 @@ jobs:
   comment_tax_info:
     runs-on: ubuntu-latest
     steps:
+      - name: Checkout This Repository
+        uses: actions/checkout@v2
+        
       - name: Render Comment Template
         id: template
         uses: chuhlomin/render-template@v1.2
