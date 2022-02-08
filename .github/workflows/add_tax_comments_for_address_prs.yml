@@ -14,6 +14,8 @@ jobs:
         uses: chuhlomin/render-template@v1.2
         with:
           template: .github/tax_comment_template.md
+          vars: |
+            foo: bar
 
       - name: Add Tax and KYC Comment
         uses: peter-evans/create-or-update-comment@v1
