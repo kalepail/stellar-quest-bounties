@@ -4,6 +4,10 @@
 | :- | :- | :-
 | 3500 XLM | 1500 XLM | Competitive | 
 
+[//]: # (make sure to replace the file-name placeholders `<BOUNTY_FILE_NAME_NO_EXTENSION>`, `<BOUNTY_FILE_NAME_WITH_EXTENSION> and `<LEVEL>` in the next two lines with the respective values)
+📜&nbsp; View [existing submissions](https://github.com/tyvdh/stellar-quest-bounties/issues?q=is%3Aissue+label%3Atangem-xdr-signer) for this bounty. \
+🔵&nbsp; Start [hunting](https://github.com/tyvdh/stellar-quest-bounties/issues/new?assignees=&labels=&template=begin-the-hunt.yml&link=https://github.com/tyvdh/stellar-quest-bounties/blob/main/bounties/level-2/tangem-xdr-signer.md) this bounty.
+
 ## Description
 Tangem is a company that produces hardware wallets and one of the supported cryptocurrencies is Stellar. You can access your Stellar Account using a compatible NFC phone and send payments by holding the card near your phone. 
 
