@@ -1,0 +1,25 @@
+name: Add tax/kyc comment on PRs against ADDRESSES.yml
+
+on:
+  pull_request:
+    types: [opened]
+    paths: 'ADDRESSES.yml'
+
+jobs:
+  comment_tax_info:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout This Repository
+        uses: actions/checkout@v2
+
+      - name: Render Comment Template
+        id: template
+        uses: chuhlomin/render-template@v1.2
+        with:
+          template: .github/tax_comment_template.md
+
+      - name: Add Tax and KYC Comment
+        uses: peter-evans/create-or-update-comment@v1
+        with:
+          issue-number: ${{ github.event.pull_request.number }}
+          body: ${{ steps.template.outputs.result }}
